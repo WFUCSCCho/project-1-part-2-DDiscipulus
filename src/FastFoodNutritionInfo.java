@@ -39,7 +39,7 @@ public class FastFoodNutritionInfo implements Comparable <FastFoodNutritionInfo>
     @Override
     public String toString() {
         return "Company: " + company + ", Item: " + item + ", Total Calories: " + calories + "\n" +
-                "Macro Breakdown: " + "Fat: " + totalFat + " carbs" + carbs + " protein " + protein + "\n";
+                "Macro Breakdown: " + "Fat: " + totalFat + " carbs " + carbs + " protein " + protein + "\n";
     }
 
     // Comparable interface for FFN data
@@ -156,9 +156,9 @@ public class FastFoodNutritionInfo implements Comparable <FastFoodNutritionInfo>
         }
     }
     // Let's get the item
-    public static FastFoodNutritionInfo getFFNFromItem(String item){
+    public static FastFoodNutritionInfo getFFNFromItemAndCompany(String item, String company){
         for (int i = 0; i < allFFN.size();i++){
-            if(allFFN.get(i).equals(item)) {
+            if(allFFN.get(i).equals(item) & allFFN.get(i+1).equals(company)) {
                 return allFFN.get(i);
                 }
             }

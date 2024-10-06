@@ -15,6 +15,7 @@ public class Parser {
 
     //Create a BST tree of Integer type
     private BST<Integer> myBST = new BST<>();
+    static int commandNumber = 0;
 
     public Parser(String filename) throws IOException {
         process(new File(filename));
@@ -32,11 +33,12 @@ public class Parser {
         // basic variables and objects
         Scanner reader = new Scanner(input);
         ArrayList<String> validCommands = new ArrayList<String>(); // stores valid commands
-        ArrayList<String> ValuesForCodes = new ArrayList<>(); // store item names needed for each command
+        ArrayList<String> valuesForCodes = new ArrayList<>(); // store item names needed for each command
         String currentLine; // stores the current input
 
         // Processing occurs below
         while(reader.hasNext()) {
+
             // more variables
             String valueStorage; // stores String inputs
             String commandToADD; // string to store commands for ArrayList
@@ -49,25 +51,28 @@ public class Parser {
 
             } else if (currentLine.equals("Insert") || currentLine.equals("insert")) {
                 // if currentLine is insert add command insert and the value to insert to Array Lists
-                valueStorage = reader.next();
+                valueStorage = reader.nextLine();
                 commandToADD = "insert";
 
-                ValuesForCodes.add(valueStorage);
+                valuesForCodes.add(valueStorage);
                 validCommands.add(commandToADD);
+                commandNumber++;
 
             } else if ((currentLine.equals("Print best option") || currentLine.equals("print best option"))) {
                 // if currentLine is search add relevant commands and int
                 commandToADD = "pbo";
 
-                ValuesForCodes.add(null);
+                valuesForCodes.add(null);
                 validCommands.add(commandToADD);
+                commandNumber++;
             } else if (currentLine.equals("Remove") || currentLine.equals("remove")) {
                 // if currentLine is remove add relevant commands and int
-                valueStorage = reader.next();
+                valueStorage = reader.nextLine();
                 commandToADD = "remove";
 
-                ValuesForCodes.add(valueStorage);
+                valuesForCodes.add(valueStorage);
                 validCommands.add(commandToADD);
+                commandNumber++;
             } else if (currentLine.equals("Top 5") || currentLine.equals("top 5")) {
                 // grab restaurant
                 valueStorage = reader.next();
@@ -75,23 +80,26 @@ public class Parser {
                 commandToADD = "t5";
 
                 validCommands.add(commandToADD);
-                ValuesForCodes.add(valueStorage);
+                valuesForCodes.add(valueStorage);
+                commandNumber++;
             }else if (currentLine.equals("list") || currentLine.equals("List")) {
                     // add print command and null value
                     commandToADD = "l";
 
                     validCommands.add(commandToADD);
-                    ValuesForCodes.add(null);
+                    valuesForCodes.add(null);
+                commandNumber++;
             } else {
                 // add invalid command and null value
                 commandToADD = "invalid command";
 
                 validCommands.add(commandToADD);
-                ValuesForCodes.add(null);
+                valuesForCodes.add(null);
+                commandNumber++;
             }
         }
         //call operate_BST method;
-        operate_BST(validCommands,ValuesForCodes);
+        operate_BST(validCommands,valuesForCodes);
     }
 
     /* *                  operate_BST
@@ -127,15 +135,35 @@ public class Parser {
                     }
                     // record and insert  unique values
                  if(isUniqueInsert) {
-                     FastFoodNutritionInfo ffnToInsert = FastFoodNutritionInfo.getFFNFromItem(valuesForCodes.get(i));
+                     String fullID = valuesForCodes.get(i);
+
+                     // Split the line by commas
+                     String[] formattedID= fullID.split(",");
+
+
+                     // grab String data
+                     String insertCompany = formattedID[0];
+                     String insertItem = formattedID[1];
+
+
+                     FastFoodNutritionInfo ffnToInsert = FastFoodNutritionInfo.getFFNFromItemAndCompany(insertItem,insertCompany);
 
                      tree.insert(ffnToInsert);
                      writeToFile("insert " + ffnToInsert, "./result.txt");
                  }
                     break;
                 case "remove":
+                    String fullID = valuesForCodes.get(i);
+
+                    // Split the line by commas
+                    String[] formattedID= fullID.split(",");
+
+                    // grab String data
+                    String insertCompany = formattedID[0];
+                    String insertItem = formattedID[1];
+
                     // remove and report values if possible
-                    FastFoodNutritionInfo ffnToRemove = FastFoodNutritionInfo.getFFNFromItem(valuesForCodes.get(i));
+                    FastFoodNutritionInfo ffnToRemove = FastFoodNutritionInfo.getFFNFromItemAndCompany(insertItem, insertCompany);
                     FastFoodNutritionInfo removeResult = tree.remove(ffnToRemove);
                     if(removeResult != null){
                         writeToFile("remove " + ffnToRemove, "./result.txt");
@@ -150,14 +178,13 @@ public class Parser {
                     int treeSize = tree.size();
                     writeToFile(tree.rankedCaloricPrint(treeSize), "./result.txt");
                     break;
-
-                        break;
                 case "print best option":
                     // find the lowest calorie option
                     FastFoodNutritionInfo pboSearchResult = tree.getMin(tree.getRoot()).getElement();
                     if(pboSearchResult != null){
                         writeToFile("Your best option is " + pboSearchResult + "/n it has " + pboSearchResult.getCalories()
                                 + " calories", "./result.txt");
+                        break;
 
                 } else{
                         // report failure
@@ -166,7 +193,7 @@ public class Parser {
                     break;
                 case "l":
                     // print
-                    FastFoodNutritionInfo.printFFNData();
+                    Proj1.setListWasCalled(true);
                     writeToFile("printed Database", "./result.txt");
                     break;
 
@@ -185,7 +212,7 @@ public class Parser {
      * @param are the string and filePath
      * @return void
      */
-  /*  public void writeToFile(String content, String filePath) throws IOException {
+  public void writeToFile(String content, String filePath) throws IOException {
         // create file variable
         File myFile = new File(filePath);
 
@@ -202,6 +229,6 @@ public class Parser {
         dataTyper.write(content +"\n"); // write given string and new line
 
         dataTyper.close(); // close file to preserve data
-        */
+
     }
         }

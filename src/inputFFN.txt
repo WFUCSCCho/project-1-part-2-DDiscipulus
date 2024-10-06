@@ -1,0 +1,7 @@
+list
+insert McDonald’s,Hamburger
+insert McDonald’s,Big Mac®
+insert Wendy’s,Jr. Cheeseburger
+remove McDonald’s,Big Mac®
+print best option
+Rank options
