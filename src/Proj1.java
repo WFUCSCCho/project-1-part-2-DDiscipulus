@@ -25,7 +25,7 @@ public class Proj1 {
             new Parser(args[0]);
 
         System.out.println("Testing if Data is being used frfr");
-        FastFoodNutritionInfo.readFastFoodData("C:\\Users\\desti\\Documents\\project-1-part-2-DDiscipulus\\src\\Edit(3)FFNData.csv");
+        FastFoodNutritionInfo.readFastFoodData("C:\\Users\\desti\\Documents\\project-1-part-2-DDiscipulus\\src\\Edited(4)FFNData.csv");
        FastFoodNutritionInfo.printFFNData();
     }
 }
