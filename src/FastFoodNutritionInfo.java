@@ -42,7 +42,7 @@ public class FastFoodNutritionInfo implements Comparable <FastFoodNutritionInfo>
                 "Macro Breakdown: " + "Fat: " + totalFat + " carbs" + carbs + " protein " + protein + "\n";
     }
 
-    // TODO: Comparable interface for COVID data
+    // Comparable interface for FFN data
     @Override
     public int compareTo(FastFoodNutritionInfo other) {
         return this.calories.compareTo(other.calories);
@@ -108,7 +108,7 @@ public class FastFoodNutritionInfo implements Comparable <FastFoodNutritionInfo>
         this.protein = protein;
     }
 
-    // Method to read the CSV file and convert it to FastFoodNutritionInfo objects
+    // Method to read the data file and convert it to FastFoodNutritionInfo objects
     public static void readFastFoodData(String csvFilePath) throws IOException {
 
         Scanner scanner = new Scanner(new File(csvFilePath));
@@ -155,6 +155,17 @@ public class FastFoodNutritionInfo implements Comparable <FastFoodNutritionInfo>
             System.out.println(ffn.toString());
         }
     }
-}
+    // Let's get the item
+    public static FastFoodNutritionInfo getFFNFromItem(String item){
+        for (int i = 0; i < allFFN.size();i++){
+            if(allFFN.get(i).equals(item)) {
+                return allFFN.get(i);
+                }
+            }
+        return null;
+        }
+
+    }
+
 
 

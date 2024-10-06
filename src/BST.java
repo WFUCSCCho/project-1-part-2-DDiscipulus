@@ -69,14 +69,21 @@ class BST<E extends Comparable<E>> {
         return root;
     }
 
-     // Gets the maximum valued element in a subtree
+     // Gets the maximum element in a subtree
     private Node<E> getmax(Node<E> rt) {
         if (root.getRight() == null) {
             return rt;
         }
         return getmax(root.getRight());
     }
-    // Deletes the maximum valued element in a subtree
+    // gets the minimum element ina subtree
+    public Node<E> getMin(Node<E> rt) {
+        if (rt.getLeft() == null) {
+            return rt; // Return the current node if there is no left child
+        }
+        return getMin(rt.getLeft());
+    }
+        // Deletes the maximum valued element in a subtree
     private Node deleteMax(Node root) {
         if (root.getRight() == null) {
             return root.left;
@@ -85,8 +92,11 @@ class BST<E extends Comparable<E>> {
         return root;
     }
 
-
-   // clears the tree
+    // returns root
+    public Node<E> getRoot() {
+        return root;
+    }
+    // clears the tree
     public void clear() {
         root = null;
         nodecount = 0;
@@ -135,6 +145,25 @@ class BST<E extends Comparable<E>> {
             E nodeElement = it.next();
             listPrintedValues.add(nodeElement.toString());
             System.out.print(nodeElement + " ");
+        }
+        // Return the list of printed values
+        return toString(listPrintedValues);
+    }
+    public String rankedCaloricPrint(int treeSize) {
+        ArrayList<String> listPrintedValues = new ArrayList<>(); // stores printed values in order
+        Iterator<E> it = iterator(); // iterator for traversal
+        int tracker = treeSize; // tracker
+
+        //formatting
+        System.out.println();
+        System.out.println("Here are you options from most to least caloric");
+        // prints values
+        while (it.hasNext()) {
+
+            E nodeElement = it.next();
+            listPrintedValues.add(nodeElement.toString());
+            System.out.print(tracker + ". " + nodeElement + "\n");
+            tracker--;
         }
         // Return the list of printed values
         return toString(listPrintedValues);

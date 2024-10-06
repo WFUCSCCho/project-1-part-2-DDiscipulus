@@ -6,12 +6,17 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Proj1 {
-    public static void main(String[] args) throws IOException {
-        System.out.println("Here is a list of valid commands");
+    public static void main(String[] args) throws IOException, InterruptedException {
+        System.out.println("This program contains food from: \n \t McDonald, Burger King, Taco Bell, PizzaHut, ");
+        System.out.println("\t Wendy’s, KFC \n");
+        Thread.sleep(4000);
+        System.out.println("Here is a list of valid commands \n");
+        System.out.println("List: list all items in database");
         System.out.println("Insert: provide food item");
         System.out.println("Delete: deletes item from tree");
         System.out.println("Print best option: prints lowest calorie item from tree");
-        System.out.println("Top 5 Restaurant(write a specific one): Prints top 5 least caloric items from a given company");
+        System.out.println("Rank options): List user given items in order from least to most caloric");
+        Thread.sleep(2000);
 
             if(args.length != 1){
                 System.err.println("Argument count is invalid: " + args.length);
@@ -24,8 +29,7 @@ public class Proj1 {
             // actually starts program
             new Parser(args[0]);
 
-        System.out.println("Testing if Data is being used frfr");
         FastFoodNutritionInfo.readFastFoodData("C:\\Users\\desti\\Documents\\project-1-part-2-DDiscipulus\\src\\Edited(4)FFNData.csv");
-       FastFoodNutritionInfo.printFFNData();
+
     }
 }

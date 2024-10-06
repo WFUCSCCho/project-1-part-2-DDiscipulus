@@ -28,6 +28,9 @@ I think focus on the big 4: Carbs, Fats, Protein, and overall Calories is more t
 
 There are few more tweaks done just to make the data easier to work with.
     I removed entries that didn't use all 6 variables I am tracking, and had to remove commas
-    inbetweeen words like egg, cheese bacon. The commas are how the scanner knows where to split
+    in-between words like egg, cheese bacon. The commas are how the scanner knows where to split
     the string up when reading so the extra commas were messing up the program.
+    The drinks section had a ton of weird formatting issues, so I cut it entirely. 
+    This program is mainly about actual meals anyway
+
 ## Overview
