@@ -32,13 +32,13 @@ public class Parser {
         // basic variables and objects
         Scanner reader = new Scanner(input);
         ArrayList<String> validCommands = new ArrayList<String>(); // stores valid commands
-        ArrayList<Integer> ValuesForCodes = new ArrayList<Integer>(); // store int number needed for each command
+        ArrayList<String> ValuesForCodes = new ArrayList<>(); // store int number needed for each command
         String currentLine; // stores the current input
 
         // Processing occurs below
         while(reader.hasNext()) {
             // more variables
-            int valueStorage; // stores int inputs
+            String valueStorage; // stores int inputs
             String commandToADD; // string to store commands for ArrayList
 
             // reads next line until space of text
@@ -49,29 +49,28 @@ public class Parser {
 
             } else if (currentLine.equals("Insert") || currentLine.equals("insert")) {
                 // if currentLine is insert add command insert and the value to insert to Array Lists
-                valueStorage = reader.nextInt();
+                valueStorage = reader.next();
                 commandToADD = "insert";
 
                 ValuesForCodes.add(valueStorage);
                 validCommands.add(commandToADD);
 
-            } else if ((currentLine.equals("Search") || currentLine.equals("search"))) {
+            } else if ((currentLine.equals("Print best option") || currentLine.equals("print best option"))) {
                 // if currentLine is search add relevant commands and int
-                valueStorage = reader.nextInt();
-                commandToADD = "search";
+                commandToADD = "pbo";
 
-                ValuesForCodes.add(valueStorage);
+                ValuesForCodes.add(null);
                 validCommands.add(commandToADD);
             } else if (currentLine.equals("Remove") || currentLine.equals("remove")) {
                 // if currentLine is remove add relevant commands and int
-                valueStorage = reader.nextInt();
+                valueStorage = reader.next();
                 commandToADD = "remove";
 
                 ValuesForCodes.add(valueStorage);
                 validCommands.add(commandToADD);
-            } else if (currentLine.equals("Print") || currentLine.equals("print")) {
+            } else if (currentLine.equals("Top 5 Restaurant") || currentLine.equals("top 5 Restaurant")) {
                 // add print command and null value
-                commandToADD = "print";
+                commandToADD = "t5";
 
                 validCommands.add(commandToADD);
                 ValuesForCodes.add(null);
@@ -95,17 +94,17 @@ public class Parser {
      * @param are the array lists that tracked the commands in their corresponding ints
      * @return void
      */
-    public void operate_BST(ArrayList<String> validCommands, ArrayList<Integer> valuesForCodes) throws IOException {
+    public void operate_BST(ArrayList<String> validCommands, ArrayList<String> valuesForCodes) throws IOException {
         ArrayList<Integer> insertDuplicates = new ArrayList<Integer>(); // list to track duplicate inserts
         BST<Integer> tree = new BST<>(); // BST
 
         // Loop for all commands
-        for(int i = 0; i < validCommands.size(); i++) {
-            switch (validCommands.get(i)) {
-                case "insert":
+      //  for(int i = 0; i < validCommands.size(); i++) {
+        //    switch (validCommands.get(i)) {
+          //      case "insert":
                     // variables
-                    boolean isUniqueInsert = true; // tracks if current num for insertion is a duplicate
-                    int numForInsert = valuesForCodes.get(i); // insert num
+                 /*   boolean isUniqueInsert = true; // tracks if current num for insertion is a duplicate
+                    String numForInsert = valuesForCodes.get(i); // insert num
 
                     // Ensure insert # is unique
                     if(insertDuplicates.isEmpty()){
@@ -135,7 +134,9 @@ public class Parser {
                         writeToFile("remove failed", "./result.txt");
                     }
                     break;
-                case "search":
+                case "top 5 restaurants":
+                        break;
+                case "print best option":
                     // find value if possible
                     Integer searchResult = tree.search(valuesForCodes.get(i));
                     if(searchResult != null){
@@ -166,7 +167,7 @@ public class Parser {
      * @param are the string and filePath
      * @return void
      */
-    public void writeToFile(String content, String filePath) throws IOException {
+  /*  public void writeToFile(String content, String filePath) throws IOException {
         // create file variable
         File myFile = new File(filePath);
 
@@ -183,5 +184,6 @@ public class Parser {
         dataTyper.write(content +"\n"); // write given string and new line
 
         dataTyper.close(); // close file to preserve data
+        */
     }
-}
+        }
