@@ -1,0 +1,594 @@
+Company,Item,Calories,Total Fat (g),Carbs (g),Protein (g)
+McDonald’s,Hamburger,250,9,31,12
+McDonald’s,Cheeseburger,300,12,33,15
+McDonald’s,Double Cheeseburger,440,23,34,25
+McDonald’s,McDouble,390,19,33,22
+McDonald’s,Quarter Pounder with Cheese,510,26,40,29
+McDonald’s,Double Quarter Pounder with Cheese,740,42,40,48
+McDonald’s,Big Mac,540,29,45,25
+McDonald’s,Big N’ Tasty,460,24,37,24
+McDonald’s,Big N’ Tasty with Cheese,510,28,38,27
+McDonald’s,Angus Bacon & Cheese,790,39,63,45
+McDonald’s,Angus Deluxe,750,39,61,40
+McDonald’s,Angus Mushroom & Swiss,770,40,59,44
+McDonald’s,Filet-O-Fish,380,18,38,15
+McDonald’s,McChicken ,360,16,40,14
+McDonald’s,McRib ,500,26,44,22
+McDonald’s,Premium Grilled Chicken Classic Sandwich,360,9,41,27
+McDonald’s,Premium Crispy Chicken Classic Sandwich,510,22,56,24
+McDonald’s,Premium Grilled Chicken Club Sandwich,460,17,43,35
+McDonald’s,Premium Crispy Chicken Club Sandwich,620,29,57,31
+McDonald’s,Premium Grilled Chicken Ranch BLT Sandwich,380,10,41,31
+McDonald’s,Premium Crispy Chicken Ranch BLT Sandwich,540,23,56,27
+McDonald’s,Southern Style Crispy Chicken Sandwich,400,17,39,24
+McDonald’s,Ranch Snack Wrap (Crispy),340,17,33,14
+McDonald’s,Ranch Snack Wrap (Grilled),270,10,26,18
+McDonald’s,Honey Mustard Snack Wrap (Crispy),330,16,34,14
+McDonald’s,Honey Mustard Snack Wrap (Grilled),260,9,27,18
+McDonald’s,Chipotle BBQ Snack Wrap (Crispy),330,15,35,14
+McDonald’s,Chipotle BBQ Snack Wrap (Grilled),260,9,28,18
+McDonald’s,Angus Bacon & Cheese Snack Wrap,390,21,28,21
+McDonald’s,Angus Chipotle BBQ Bacon,800,39,66,45
+McDonald’s,Angus Chipotle BBQ Bacon Snack Wrap,400,22,30,21
+McDonald’s,Angus Deluxe Snack Wrap,410,25,27,20
+McDonald’s,Angus Mushroom & Swiss Snack Wrap,430,26,27,22
+McDonald’s,Mac Snack Wrap,330,19,26,15
+McDonald’s,Small French Fries,230,11,29,3
+McDonald’s,Medium French Fries,380,19,48,4
+McDonald’s,Large French Fries,500,25,63,6
+McDonald’s,Ketchup Packet,15,0,3,0
+McDonald’s,Salt Packet,0,0,0,0
+McDonald’s,Chicken McNuggets (4 piece),190,12,12,9
+McDonald’s,Chicken McNuggets (6 piece),280,18,18,13
+McDonald’s,Chicken McNuggets (10 piece),470,30,30,22
+McDonald’s,Barbeque Sauce,50,0,12,0
+McDonald’s,Honey,50,0,12,0
+McDonald’s,Hot Mustard Sauce,60,2.5,9,1
+McDonald’s,Sweet ‘N Sour Sauce,50,0,12,0
+McDonald’s,Chicken Selects Premium Breast Strips (3 pc),400,24,23,23
+McDonald’s,Chicken Selects Premium Breast Strips (5 pc),660,40,39,38
+McDonald’s,Spicy Buffalo Sauce,60,6,1,0
+McDonald’s,Creamy Ranch Sauce,170,18,2,0
+McDonald’s,Tangy Honey Mustard Sauce,60,2,10,0
+McDonald’s,Southwestern Chipotle Barbeque Sauce,60,0,15,0
+McDonald’s,Premium Southwest Salad with Grilled Chicken,320,9,30,30
+McDonald’s,Premium Southwest Salad with Crispy Chicken,430,20,38,26
+McDonald’s,Premium Southwest Salad (without chicken),140,4.5,20,6
+McDonald’s,Premium Bacon Ranch Salad with Grilled Chicken,260,9,12,33
+McDonald’s,Premium Bacon Ranch Salad with Crispy Chicken,370,20,20,29
+McDonald’s,Premium Bacon Ranch Salad (without chicken),140,7,10,9
+McDonald’s,Premium Caesar Salad with Grilled Chicken,220,6,12,30
+McDonald’s,Premium Caesar Salad with Crispy Chicken,330,17,20,26
+McDonald’s,Premium Caesar Salad (without chicken),90,4,9,7
+McDonald’s,Side Salad,20,0,4,1
+McDonald’s,Butter Garlic Croutons,60,1.5,10,2
+McDonald’s,Snack Size Fruit & Walnut Salad,210,8,31,4
+McDonald’s,Newman’s Own Creamy Southwest Dressing,100,6,11,1
+McDonald’s,Newman’s Own Creamy Caesar Dressing,190,18,4,2
+McDonald’s,Newman’s Own Low Fat Balsamic Vinaigrette,40,3,4,0
+McDonald’s,Newman’s Own Low Fat Family Recipe Italian Dressing,60,2.5,8,1
+McDonald’s,Newman’s Own Ranch Dressing,170,15,9,1
+McDonald’s,Egg McMuffin,300,12,30,18
+McDonald’s,Sausage McMuffin,370,22,29,14
+McDonald’s,Sausage McMuffin with Egg,450,27,30,21
+McDonald’s,English Muffin,160,3,27,5
+McDonald’s,Bacon Egg & Cheese Biscuit (Regular Size Biscuit),420,23,37,15
+McDonald’s,Bacon Egg & Cheese Biscuit (Large Size Biscuit),480,27,43,15
+McDonald’s,Sausage Biscuit with Egg (Regular Size Biscuit),510,33,36,18
+McDonald’s,Sausage Biscuit with Egg (Large Size Biscuit),570,37,42,18
+McDonald’s,Sausage Biscuit (Regular Size Biscuit),430,27,34,11
+McDonald’s,Sausage Biscuit (Large Size Biscuit),480,31,39,11
+McDonald’s,Southern Style Chicken Biscuit (Regular Size Biscuit),410,20,41,17
+McDonald’s,Southern Style Chicken Biscuit (Large Size Biscuit),470,24,46,17
+McDonald’s,Steak Egg & Cheese Bagel,660,33,56,33
+McDonald’s,Bacon Egg & Cheese McGriddles,420,18,48,15
+McDonald’s,Sausage Egg & Cheese McGriddles,560,32,48,20
+McDonald’s,Sausage McGriddles,420,22,44,11
+McDonald’s,Big Breakfast (Regular Size Biscuit),740,48,51,28
+McDonald’s,Big Breakfast (Large Size Biscuit),800,52,56,28
+McDonald’s,Big Breakfast with Hotcakes (Regular Size Biscuit),1090,56,111,36
+McDonald’s,Big Breakfast with Hotcakes (Large Size Biscuit),1150,60,116,36
+McDonald’s,Sausage Burrito,300,16,26,12
+McDonald’s,McSkillet Burrito with Sausage,610,36,44,27
+McDonald’s,Hotcakes,350,9,60,8
+McDonald’s,Hotcakes and Sausage,520,24,61,15
+McDonald’s,Hotcake Syrup,180,0,45,0
+McDonald’s,Whipped Margarine (1 pat),40,4.5,0,0
+McDonald’s,Hash Brown,150,9,15,1
+McDonald’s,Grape Jam,35,0,9,0
+McDonald’s,Strawberry Preserves,35,0,9,0
+McDonald’s,Bacon Egg & Cheese Bagel,560,27,56,24
+McDonald’s,Fruit & Maple Oatmeal,290,4.5,57,5
+McDonald’s,Fruit & Maple Oatmeal without Brown Sugar,260,4.5,48,5
+McDonald’s,Hamburger Happy Meal,475,16,62,22
+McDonald’s,4 Piece Chicken McNuggets Happy Meal,395,17,41,19
+McDonald’s,6 Piece Chicken McNuggets Happy Meal,475,22,46,24
+McDonald’s,Fruit ‘n Yogurt Parfait (7 oz),160,2,31,4
+McDonald’s,Low Fat Caramel Dip,70,0.5,15,0
+McDonald’s,Vanilla Reduced Fat Ice Cream Cone,150,3.5,24,4
+Burger King,Whopper Sandwich,660,40,49,28
+Burger King,Whopper Sandwich with Cheese,740,46,50,32
+Burger King,Bacon & Cheese Whopper Sandwich,790,51,50,35
+Burger King,Double Whopper Sandwich,900,58,49,48
+Burger King,Double Whopper Sandwich with Cheese,980,64,50,52
+Burger King,Triple Whopper Sandwich,1130,75,49,67
+Burger King,Triple Whopper Sandwich with Cheese,1220,82,50,71
+Burger King,Whopper JR. Sandwich,310,18,27,13
+Burger King,Bacon King Sandwich,1150,79,49,61
+Burger King,Cheddar Bacon King Sandwich,1190,84,50,64
+Burger King,Single Quarter Pound King Sandwich,580,29,49,32
+Burger King,Double Quarter Pound King Sandwich,900,54,50,56
+Burger King,Single Stacker King,700,42,48,35
+Burger King,Double Stacker King,1050,68,49,61
+Burger King,IMPOSSIBLE Whopper Sandwich,630,34,58,25
+Burger King,Hamburger,240,10,26,13
+Burger King,Cheeseburger,280,13,27,15
+Burger King,Double Hamburger,350,18,26,21
+Burger King,Double Cheeseburger,390,21,27,23
+Burger King,Extra Long Cheeseburger,630,37,45,29
+Burger King,Bacon Cheeseburger,320,16,27,17
+Burger King,Bacon Double Cheeseburger,420,24,27,25
+Burger King,Crispy Chicken Sandwich,670,41,54,23
+Burger King,Spicy Crispy Chicken Sandwich,700,42,57,25
+Burger King,Original Chicken Sandwich,660,40,48,28
+Burger King,Bacon & Cheese Crispy Chicken Sandwich,800,52,55,30
+Burger King,BBQ Bacon Crispy Chicken Sandwich,790,49,60,28
+Burger King,Crispy Chicken Jr.,450,30,34,12
+Burger King,Spicy Crispy Chicken Jr.,390,21,37,12
+Burger King,Chicken Nuggets- 4pc,170,11,11,8
+Burger King,Chicken Nuggets- 6pc,260,16,16,12
+Burger King,Chicken Nuggets- 10pc,430,27,27,20
+Burger King,Chicken Nuggets- 20pc,860,54,53,39
+Burger King,Spicy Chicken Nuggets- 4pc,210,15,11,8
+Burger King,Spicy Chicken Nuggets- 6pc,320,22,17,12
+Burger King,Spicy Chicken Nuggets- 10 pc,530,37,28,20
+Burger King,Spicy Chicken Nuggets- 20 pc,1050,74,56,40
+Burger King,Chicken Fries – 9 pc.,280,17,20,13
+Burger King,Crispy Taco,170,9,19,5
+Burger King,BIG FISH Sandwich,510,28,51,16
+Burger King,Garden Chicken Salad with Crispy Chicken – no dressing,440,25,31,25
+Burger King,Club Salad with Crispy Chicken – no dressing,540,33,31,31
+Burger King,Garden Side Salad – w/o dressing,60,4,3,4
+Burger King,Ken’s Ranch Dressing,260,28,2,1
+Burger King,Ken’s Golden Italian Dressing,160,17,4,0
+Burger King,Ken’s Lite Honey Balsamic Vinaigrette,120,8,14,0
+Burger King,Buttery Garlic Croutons- Packet,60,2.5,9,1
+Burger King,Onion Rings – value,150,8,19,1
+Burger King,Onion Rings – small,320,16,41,3
+Burger King,Onion Rings – medium,410,21,53,4
+Burger King,Onion Rings – large,500,25,64,5
+Burger King,French Fries – value (unsalted),220,9,34,2
+Burger King,French Fries – small,320,13,49,4
+Burger King,French Fries – medium,380,16,58,4
+Burger King,French Fries – large,430,18,66,5
+Burger King,Kids Oatmeal,170,3,32,4
+Burger King,Chicken Nuggets- 4pc,170,11,11,8
+Burger King,Chicken Nuggets- 6pc,260,16,16,12
+Burger King,Hamburger,240,10,26,13
+Burger King,Cheeseburger,280,13,27,15
+Burger King,Mott’s Natural Applesauce,50,0,13,0
+Burger King,Fat FREE Milk (8 fl oz),90,0,13,9
+Burger King,1% Low Fat Chocolate Milk (8 fl oz),160,2.5,26,8
+Burger King,Capri Sun 100% Apple Juice (6 fl oz),80,0,20,0
+Burger King,PB&J Jamwich,300,16,33,11
+Burger King,Soft Serve Cone,190,4.5,32,5
+Burger King,Dutch Apple Pie,340,14,51,3
+Burger King,HERSHEY’S Sundae Pie,310,19,32,3
+Burger King,Pie made with TWIX,370,20,45,4
+Burger King,OREO Cookie Cheesecake,350,18,41,6
+Burger King,Soft Serve Cone,190,4.5,32,5
+Burger King,Soft Serve Cup,170,4.5,28,5
+Burger King,HERSHEY’s Chocolate Sundae,260,5,49,5
+Burger King,Caramel Sundae,240,5,42,5
+Burger King,Chocolate Chip Cookies (each),160,8,24,2
+Burger King,CROISSAN’WICH Egg & Cheese,340,18,29,12
+Burger King,CROISSAN’WICH Sausage Egg & Cheese,500,33,30,19
+Burger King,CROISSAN’WICH Ham Egg & Cheese,370,19,30,17
+Burger King,CROISSAN’WICH Bacon Egg & Cheese,370,21,30,14
+Burger King,Fully Loaded CROISSAN’WICH,610,40,31,28
+Burger King,Double CROISSAN’WICH with Sausage & Bacon,580,40,31,23
+Burger King,Double CROISSAN’WICH with Sausage,710,52,31,29
+Burger King,Double CROISSAN’WICH with Ham & Sausage,580,38,31,27
+Burger King,Fully Loaded Biscuit,640,45,31,28
+Burger King,Ham Egg & Cheese Biscuit,400,24,29,17
+Burger King,Bacon Egg & Cheese Biscuit,400,26,29,13
+Burger King,Sausage Biscuit,420,28,28,12
+Burger King,Breakfast Burrito Jr.,370,23,27,15
+Burger King,EGG-NORMOUS BURRITOΡ,780,42,68,32
+Burger King,BK Ultimate Breakfast Platter,930,44,110,24
+Burger King,NY Ultimate Platter (Regional menu item),900,46,95,25
+Burger King,Pancake and Sausage platter,610,31,72,12
+Burger King,Hash Browns – small,250,16,24,2
+Burger King,Hash Browns – medium,500,33,48,4
+Burger King,Hash Browns – large,670,44,65,5
+Burger King,French Toast Sticks (3 piece),230,11,29,3
+Burger King,French Toast Sticks (5 piece),380,18,49,5
+Burger King,American Cheese (slice),40,3.5,1,2
+Burger King,Ketchup (Packet),10,0,3,0
+Burger King,Mayonnaise (Packet),80,9,1,0
+Burger King,Strawberry or Grape Jam (packet),30,0,7,0
+Burger King,Breakfast Syrup (1 oz),120,0,30,0
+Burger King,Barbecue Dipping Sauce (1 oz),40,0,11,0
+Burger King,Ranch Dipping Sauce (1 oz),140,15,1,1
+Burger King,Buffalo Dipping Sauce (1 oz),80,8,2,0
+Burger King,Zesty Onion Ring Dipping Sauce (1 oz),150,15,3,0
+Burger King,Honey Mustard Dipping Sauce (1oz),90,6,8,0
+Wendy’s,Baconator,950,62,40,59
+Wendy’s,Dave’s Double,810,51,41,49
+Wendy’s,Dave’s Single,570,34,40,30
+Wendy’s,Dave’s Triple,1090,72,43,71
+Wendy’s,Double Stack,390,21,26,25
+Wendy’s,Jr. Bacon Cheeseburger,380,22,25,19
+Wendy’s,Jr. Cheeseburger,280,13,26,16
+Wendy’s,Jr. Cheeseburger Deluxe,340,19,27,16
+Wendy’s,Son of Baconator,630,39,37,34
+Wendy’s,3 Piece Chicken Tenders,330,16,22,24
+Wendy’s,4 Piece Chicken Nuggets,170,11,10,9
+Wendy’s,4 Piece Chicken Tenders,430,21,29,32
+Wendy’s,6 Picece Chicken Nuggets,250,16,14,13
+Wendy’s,6 Piece Chicken Tenders,650,32,43,48
+Wendy’s,10 Piece Chicken Nuggets,420,27,24,22
+Wendy’s,Crispy Chicken BLT,420,23,35,20
+Wendy’s,Crispy Chicken Sandwich,330,16,33,14
+Wendy’s,Grilled Asiago Ranch Club,530,23,36,43
+Wendy’s,Grilled Chicken Sandwich,370,10,38,34
+Wendy’s,Grilled Chicken Wrap,270,10,24,20
+Wendy’s,Homestyle Asiago Ranch Chicken Club,660,34,52,38
+Wendy’s,Homestyle Chicken Sandwich,510,22,51,28
+Wendy’s,S’Awesome Sauce,120,12,4,1
+Wendy’s,Spicy Asiago Ranch Club,670,32,55,38
+Wendy’s,Spicy Chicken Sandwich,510,20,54,29
+Wendy’s,Spicy Chicken Wrap,370,20,30,18
+Wendy’s,Apple Pecan Chicken Salad Full Size,560,24,52,38
+Wendy’s,Apple Pecan Chicken Salad Half Size,340,17,29,20
+Wendy’s,Berry Burst Chicken Salad Full Size,460,17,41,41
+Wendy’s,Berry Burst Chicken Salad Half Size,290,13,23,23
+Wendy’s,Caesar Side Salad,240,15,19,8
+Wendy’s,Garden Side Salad,250,18,18,7
+Wendy’s,Southwest Avocado Chicken Salad Full Size,600,41,18,42
+Wendy’s,Southwest Avocado Chicken Salad Half Size,300,20,10,21
+Wendy’s,Spicy Caesar Chicken Salad Full Size,720,42,44,42
+Wendy’s,Spicy Caesar Chicken Salad Half Size,410,23,30,23
+Wendy’s,Taco Salad Full Size,660,32,63,32
+Wendy’s,Taco Salad Half Size,470,23,49,19
+Wendy’s,Apple Bites,35,0,9,0
+Wendy’s,Baconator Fries,490,28,45,14
+Wendy’s,Bacon Cheese Baked Potato,440,14,64,17
+Wendy’s,Cheese Baked Potato,430,13,65,14
+Wendy’s,Chili & Cheese Baked Potato,460,11,71,19
+Wendy’s,Chili Large,250,7,23,23
+Wendy’s,Chili Small,170,5,16,15
+Wendy’s,Chili Cheese Fries,500,25,53,16
+Wendy’s,Natural-Cut Fries Junior,230,10,30,3
+Wendy’s,Natural-Cut Fries Large,530,24,70,7
+Wendy’s,Natural-Cut Fries Medium,420,19,56,6
+Wendy’s,Natural-Cut Fries Small,320,15,43,5
+Wendy’s,Plain Baked Potato,270,0,61,7
+Wendy’s,Sour Cream and Chive Baked Potato,310,2.5,63,8
+Wendy’s,Summer Berry Burst Fruit Cup,20,0,5,0
+Wendy’s,Classic Chocolate Frosty Junior,200,5,33,6
+Wendy’s,Classic Chocolate Frosty Large,590,15,99,17
+Wendy’s,Classic Chocolate Frosty Medium,470,12,79,13
+Wendy’s,Classic Chocolate Frosty Small,350,9,58,10
+Wendy’s,Vanilla Frosty Junior,190,5,32,5
+Wendy’s,Vanilla Frosty Large,570,15,94,15
+Wendy’s,Vanilla Frosty Medium,450,12,75,12
+Wendy’s,Vanilla Frosty Small,340,9,56,9
+Wendy’s,Chocolate Chunk Cookie,310,16,40,3
+Wendy’s,Double Chocolate Chunk Cookie,290,14,39,4
+Wendy’s,Sugar Cookie,330,16,43,3
+Wendy’s,Kids 2 Piece Chicken Tenders,200,10,13,15
+Wendy’s,Kids 4 Piece Chicken Nuggets,170,11,10,9
+Wendy’s,Kids Cheeseburger,280,13,25,15
+Wendy’s,Kids Grilled Chicken Wrap,270,10,24,20
+Wendy’s,Kids Hamburger,240,9,24,13
+Wendy’s,Artisan Egg Sandwich with Bacon,320,17,25,18
+Wendy’s,Artisan Egg Sandwich with Sausage,480,33,27,21
+Wendy’s,Bacon Breakfast Bowl,510,28,44,19
+Wendy’s,Biggie Breakfast Sandwich,610,40,37,27
+Wendy’s,Fresh-Baked Biscuit with Applewood Smoked Bacon,410,24,34,15
+Wendy’s,Fresh Baked Biscuit with Natural Sausage,590,41,36,20
+Wendy’s,Gravy and Sausage Bowl,450,22,50,12
+Wendy’s,Honey Butter Chicken Biscuit,500,26,48,19
+Wendy’s,Sausage and Egg Burrito,360,20,29,17
+Wendy’s,Sausage and Gravy Biscuit,490,29,49,8
+Wendy’s,Sausage Biscuit,480,33,35,12
+Wendy’s,Sausage Breakfast Bowl,640,42,46,21
+Wendy’s,Seasoned Home-Style Potatoes Large,360,13,57,5
+Wendy’s,Seasoned Home-Style Potatoes Medium,250,9,39,4
+Wendy’s,Seasoned Home-Style Potatoes Small,230,8,35,3
+Wendy’s,Two Sausage and Egg Burritos, 720,41,59,34
+Wendy’s,Two Sausage Biscuits,960,65,70,23
+KFC,Limited Time Cinnabon Dessert  Biscuits,290,13,40,4
+KFC,Limited Time ORIGINAL RECIPE CHICKEN Chicken Breast,390,21,11,39
+KFC,Limited Time ORIGINAL RECIPE CHICKEN Chicken Limited Time Drumstick,130,8,4,12
+KFC,Limited Time ORIGINAL RECIPE CHICKEN Chicken Thigh,280,19,8,19
+KFC,Limited Time ORIGINAL RECIPE CHICKEN Chicken Whole Wing,130,8,3,10
+KFC,Chicken Breast,770,60,21,35
+KFC,Chicken Drumstick,250,21,6,11
+KFC,Chicken Thigh,500,40,11,22
+KFC,Chicken Whole Wing,290,25,6,10
+KFC,Breast,260,12,1,38
+KFC,Drumstick,100,6,0,11
+KFC,Thigh,180,12,0,17
+KFC,Whole Wing,90,6,1,9
+KFC,Breast,540,40,14,31
+KFC,Drumstick,190,14,6,9
+KFC,Thigh,390,32,12,13
+KFC,Whole Wing,180,15,5,8
+KFC,EXTRA CRISPY  Chicken Breast,530,35,18,35
+KFC,EXTRA CRISPY  Chicken Drumstick,170,12,5,10
+KFC,EXTRA CRISPY  Chicken Thigh,330,23,9,22
+KFC,EXTRA CRISPY  Chicken Whole Wing,170,13,5,10
+KFC,KENTUCKY GRILLED CHICKEN Breast,210,7,0,38
+KFC,KENTUCKY GRILLED CHICKEN Drumstick,80,4,0,11
+KFC,KENTUCKY GRILLED CHICKEN Thigh,150,9,0,17
+KFC,KENTUCKY GRILLED CHICKEN Whole Wing,70,3,0,9
+KFC,SPICY CRISPY CHICKEN Breast,350,20,11,30
+KFC,SPICY CRISPY CHICKEN Drumstick,130,8,5,9
+KFC,SPICY CRISPY CHICKEN Thigh,270,20,10,13
+KFC,SPICY CRISPY CHICKEN Whole Wing,120,8,5,7
+KFC,EXTRA CRISPY  Tender (each),260,14,15,19
+KFC,EXTRA CRISPY  Tender (each),220,16,9,10
+KFC,KENTUCKY FRIED WINGS Buffalo,100,7,3,5
+KFC,KENTUCKY FRIED WINGS Honey BBQ,100,6,8,5
+KFC,KENTUCKY FRIED WINGS Nashville Hot,130,11,4,5
+KFC,KENTUCKY FRIED WINGS Unsauced,80,6,3,5
+KFC,POPCORN NUGGETS Kids,290,19,19,13
+KFC,POPCORN NUGGETS Large,620,39,39,27
+KFC,BBQ Baked Beans,190,1,34,11
+KFC,Biscuit,180,8,22,4
+KFC,Coleslaw,170,12,14,1
+KFC,Corn on the Cob,70,0.5,17,2
+KFC,Green Beans,25,0,5,1
+KFC,KFC Cornbread Muffin,210,9,28,3
+KFC,Macaroni & Cheese,140,6,17,5
+KFC,Macaroni Salad,140,8,14,1
+KFC,Mashed Potatoes,110,3.5,17,2
+KFC,Mashed Potatoes With Gravy,130,4.5,20,3
+KFC,Potato Salad,340,28,19,2
+KFC,Secret Recipe Fries,320,15,41,5
+KFC,Sweet Kernel Corn,70,0.5,16,2
+KFC,BBQ Baked Beans (Family),830,5,148,47
+KFC,Coleslaw (Family),640,46,54,4
+KFC,Corn on the Cob (Family),280,2,67,9
+KFC,Green Beans (Family),80,0,15,4
+KFC,Macaroni & Cheese (Family),540,23,66,18
+KFC,Macaroni Salad (Family),480,28,50,3
+KFC,Mashed Potatoes (Family),460,15,72,9
+KFC,Mashed Potatoes With Gravy (Family),590,21,88,12
+KFC,Potato Salad (Family),1200,98,65,8
+KFC,Secret Recipe Fries (Family),840,40,108,13
+KFC,Sweet Kernel Corn (Family),280,2.5,67,10
+KFC,Chicken Littles,300,15,27,14
+KFC,Chicken Littles – Buffalo,310,17,27,14
+KFC,Chicken Littles – Honey BBQ,320,15,31,14
+KFC,Chicken Littles – Nashville Hot,340,19,27,14
+KFC,Classic Chicken Sandwich,650,35,49,34
+KFC,Crispy Colonel’s Sandwich,470,24,39,24
+KFC,Crispy Colonel’s Sandwich – Buffalo,500,27,39,24
+KFC,Crispy Colonel’s Sandwich – Honey BBQ,510,25,48,24
+KFC,Crispy Colonel’s Sandwich – Nashville Hot,540,32,40,24
+KFC,Crispy Twister,630,34,53,28
+KFC,Honey BBQ Sandwich,350,3.5,55,24
+KFC,Spicy Chicken Sandwich,620,33,49,34
+KFC,Chicken Pot Pie,720,41,60,26
+KFC,KFC Famous Bowl,740,35,81,26
+KFC,KFC Famous Bowl – Snack Size,270,14,27,11
+KFC,Caesar Side Salad,40,2,2,3
+KFC,House Side Salad,15,0,3,1
+KFC,Heinz Buttermilk Dressing,160,17,1,0
+KFC,Hidden Valley The Original Ranch Fat Free Dressing,35,0,8,1
+KFC,KFC Creamy Parmesan Caesar Dressing,260,26,4,2
+KFC,Marzetti Light Italian Dressing,15,0.5,2,0
+KFC,Parmesan Garlic Croutons,60,3,8,2
+KFC,Apple Turnover,230,10,32,2
+KFC,Café Valley Chocolate Chip Cake (1 Slice),300,15,39,4
+KFC,Café Valley Lemon Cake (1 Slice),220,10,30,2
+KFC,Café Valley Mini Chocolate Chip Cake,300,12,49,3
+KFC,Café Valley Mini Lemon Cake,300,13,43,3
+KFC,Chocolate Chip Cookie,120,6,18,1
+KFC,Oreo Cookies and Crème Pie,270,13,35,3
+KFC,Reese’s Peanut Butter Pie,300,17,33,5
+KFC,BBQ – Dipping Sauce Cup,45,0,11,0
+KFC,Colonel’s Buttery Spread,35,4,0,0
+KFC,Grape Jelly Packet,35,0,9,0
+KFC,Honey Mustard – Dipping Sauce Cup,110,9,6,0
+KFC,Honey Sauce Packet,30,0,8,0
+KFC,Ketchup,30,0,8,0
+KFC,KFC Sauce – Dipping Sauce Cup,90,8,5,0
+KFC,Lemon Juice Packet,5,0,1,0
+KFC,Ranch – Dipping Sauce Cup,130,14,2,0
+KFC,Strawberry Jam Packet,35,0,9,0
+KFC,Capri Sun 100% Juice Fruit Punch,80,0,21,0
+KFC,Chocolate Milk 1%,150,2.5,26,7
+KFC,Milk 1%,90,2,10,7
+KFC,Musselman’s Applesauce,45,0,12,0
+KFC,Country Fried Steak without Peppered White Gravy,360,24,22,13
+KFC,Country Fried Steak with Peppered White Gravy,390,26,26,13
+KFC,KFC Gizzards,300,16,18,20
+KFC,KFC Livers,230,13,12,17
+Taco Bell,Bacon Club Chalupa,440,27,31,20
+Taco Bell,Blue Raspberry Freeze (16 oz),120,0,30,0
+Taco Bell,Blue Raspberry Freeze (20 oz),150,0,38,0
+Taco Bell,Loaded Nacho Taco,250,12,24,10
+Taco Bell,Midnight Berry Freeze (16 oz),140,0,35,0
+Taco Bell,Midnight Berry Freeze (20 oz),170,0,43,0
+Taco Bell,Nacho Fries,320,18,35,4
+Taco Bell,Nacho Fries BellGrande,710,40,73,13
+Taco Bell,Black Bean Chalupa – Online Exclusive,330,15,39,10
+Taco Bell,Black Bean Quesarito – Online Exclusive,630,29,73,19
+Taco Bell,Quesarito – Online Exclusive,650,33,67,22
+Taco Bell,Chalupa Supreme – Beef,350,18,33,13
+Taco Bell,Chalupa Supreme – Chicken,330,15,31,16
+Taco Bell,Chalupa Supreme – Steak,330,16,32,15
+Taco Bell,Cheesy Gordita Crunch,500,28,41,20
+Taco Bell,Crunchy Taco,170,9,13,8
+Taco Bell,Crunchy Taco Supreme,190,11,15,8
+Taco Bell,Loaded Nacho Taco (New),250,12,24,10
+Taco Bell,Nacho Cheese Doritos Locos Taco,170,9,13,8
+Taco Bell,Nacho Cheese Doritos Locos Taco Supreme,190,11,15,8
+Taco Bell,Soft Taco – Beef,180,9,17,9
+Taco Bell,Soft Taco – Chicken,160,5,16,12
+Taco Bell,Soft Taco – Beef,210,10,20,10
+Taco Bell,Soft Taco – Chicken,180,7,18,13
+Taco Bell,Bean Burrito (V),350,9,54,13
+Taco Bell,Beefy 5-Layer Burrito,490,18,63,18
+Taco Bell,Burrito Supreme – Beef,390,14,51,16
+Taco Bell,Burrito Supreme – Chicken,370,11,49,19
+Taco Bell,Burrito Supreme – Steak,370,12,49,18
+Taco Bell,Chili Cheese Burrito (regional),370,17,40,16
+Taco Bell,Quesarito – Beef,650,33,67,22
+Taco Bell,Quesarito – Chicken,620,29,66,25
+Taco Bell,Quesarito – Steak,630,30,66,24
+Taco Bell,Chips and Nacho Cheese Sauce (V),220,13,24,2
+Taco Bell,Nacho Fries (V) (New),320,18,35,4
+Taco Bell,Nacho Fries BellGrande (New),710,40,73,13
+Taco Bell,Nachos BellGrande – Beef,740,38,82,16
+Taco Bell,Nachos BellGrande – Chicken,720,35,81,20
+Taco Bell,Nachos BellGrande – Steak,720,36,81,19
+Taco Bell,Beef Quesarito,650,33,67,22
+Taco Bell,Black Bean Quesarito (V),630,29,73,19
+Taco Bell,Quesadilla – Cheese (V),470,25,37,19
+Taco Bell,Quesadilla – Chicken,510,26,38,27
+Taco Bell,Quesadilla – Steak,520,27,38,27
+Taco Bell,Bacon Club Chalupa – Specialties,440,27,31,20
+Taco Bell,Black Bean Chalupa – Specialties,330,15,39,10
+Taco Bell,Black Bean Crunchwrap Supreme – Specialties,510,17,77,13
+Taco Bell,Black Bean Quesarito – Specialties,630,29,73,19
+Taco Bell,Chalupa Supreme – Specialties,350,18,33,13
+Taco Bell,Cheesy Gordita Crunch – Specialties,500,28,41,20
+Taco Bell,Cheesy Roll Up – Specialties,180,9,15,9
+Taco Bell,Crunchwrap Supreme – Specialties,530,21,71,16
+Taco Bell,Crunchy Taco – Specialties,170,9,13,8
+Taco Bell,Nacho Cheese Doritos Locos Taco – Specialties,170,9,13,8
+Taco Bell,Nachos BellGrande – Specialties,740,38,82,16
+Taco Bell,Power Menu Bowl – Specialties,470,19,50,26
+Taco Bell,Quesadilla – Specialties,510,26,38,27
+Taco Bell,Quesarito – Specialties,650,33,67,22
+Taco Bell,Soft Taco – Specialties,180,9,17,9
+Taco Bell,Soft Taco Supreme – Specialties,210,10,20,10
+Taco Bell,Veggie Power Menu Bowl – Specialties,430,17,57,12
+Taco Bell,Black Beans & Rice (V),170,3.5,31,4
+Taco Bell,Black Beans (V),50,1,8,2
+Taco Bell,Cinnabon Delights (2 Pk) (V),160,9,17,2
+Taco Bell,Cinnabon Delights (12 Pk – Serves 4) (V),930,53,104,9
+Taco Bell,Cinnamon Twists (V),170,6,27,1
+Taco Bell,Diablo Sauce Packet (V),0,0,0,0
+Taco Bell,Fire Sauce Packet (V),0,0,0,0
+Taco Bell,Hot Sauce Packet (V),0,0,0,0
+Taco Bell,Mild Sauce Packet (V),0,0,0,0
+Taco Bell,Beef Burrito – Value Menu,430,19,51,12
+Taco Bell,Cheesy Bean & Rice Burrito – Value Menu,420,16,56,10
+Taco Bell,Cheesy Roll Up – Value Menu,180,9,15,9
+Taco Bell,Chicken Chipotle Melt – Value Menu,190,9,15,12
+Taco Bell,Chips and Nacho Cheese Sauce – Value Menu,220,13,24,2
+Taco Bell,Cinnamon Twists – Value Menu,170,6,27,1
+Taco Bell,Loaded Nacho Taco – Value Menu,250,12,24,10
+Taco Bell,Bean Burrito,350,9,54,13
+Taco Bell,Black Bean Chalupa,330,15,39,10
+Taco Bell,Black Bean Crunchwrap Supreme,510,17,77,13
+Taco Bell,Black Bean Quesarito,630,29,73,19
+Taco Bell,Black Beans & Rice,170,3.5,31,4
+Taco Bell,Cheese Quesadilla,470,25,37,19
+Taco Bell,Cheesy Bean & Rice Burrito,420,16,56,10
+Taco Bell,Cheesy Roll Up,180,9,15,9
+Taco Bell,Chips and Nacho Cheese Sauce,220,13,24,2
+Taco Bell,Cinnabon Delights (2 Pack),160,9,17,2
+Taco Bell,Cinnabon Delights (12 Pack – Serves 4),930,53,104,9
+Taco Bell,Cinnamon Twists,170,6,27,1
+Taco Bell,Hash Brown,160,12,13,1
+Taco Bell,Power Menu Bowl – Veggie,430,17,57,12
+Taco Bell,Power Menu Bowl – Chicken,470,19,50,26
+Taco Bell,Power Menu Bowl – Steak,480,20,51,25
+Taco Bell,Power Menu Bowl – Veggie (V),430,17,57,12
+Taco Bell,Breakfast Crunchwrap – Bacon,670,41,50,21
+Taco Bell,Breakfast Crunchwrap – Sausage,720,47,51,21
+Taco Bell,Breakfast Crunchwrap – Steak,660,38,51,24
+Taco Bell,Breakfast Salsa Packet (V),0,0,1,0
+Taco Bell,Cheesy Toasted Breakfast Burrito – Bacon,350,16,36,13
+Taco Bell,Cheesy Toasted Breakfast Burrito – Fiesta Potato (V),340,14,43,10
+Taco Bell,Cheesy Toasted Breakfast Burrito – Sausage,340,17,36,11
+Taco Bell,Cinnabon Delights (2 Pack) (V),160,9,17,2
+Taco Bell,Cinnabon Delights (12 Pack – Serves 4) (V),930,53,104,9
+Taco Bell,Grande Toasted Breakfast Burrito – Bacon,560,30,49,24
+Taco Bell,Grande Toasted Breakfast Burrito – Sausage,560,31,49,22
+Taco Bell,Grande Toasted Breakfast Burrito – Steak,560,28,50,27
+Taco Bell,Hash Brown (V),160,12,13,1
+Taco Bell,Hash Brown Toasted Breakfast Burrito – Bacon,570,33,49,21
+Taco Bell,Hash Brown Toasted Breakfast Burrito – Sausage,570,34,49,18
+Taco Bell,Hash Brown Toasted Breakfast Burrito – Steak,570,30,50,24
+Pizza Hut,Detroit Double Cheesy Pizza Slice,280,12,31,13
+Pizza Hut,Detroit Double Pepperoni Pizza Slice,330,17,30,14
+Pizza Hut,Detroit Meaty Pizza Slice,320,16,31,14
+Pizza Hut,Detroit Supremo Pizza Slice,290,13,31,13
+Pizza Hut,Pan Pizza Slices Backyard BBQ Chicken Personal Pan,180,6,25,8
+Pizza Hut,Pan Pizza Slices Backyard BBQ Chicken Medium,270,10,33,11
+Pizza Hut,Pan Pizza Slices Backyard BBQ Chicken Large,380,16,43,16
+Pizza Hut,Pan Pizza Slices Beyond Meat Pepperoni Medium,240,10,29,10
+Pizza Hut,Pan Pizza Slices Beyond Meat Pepperoni Large,350,16,38,14
+Pizza Hut,Pan Pizza Slices Buffalo Chicken Personal Pan,160,5,22,7
+Pizza Hut,Pan Pizza Slices Buffalo Chicken Medium,240,9,31,11
+Pizza Hut,Pan Pizza Slices Buffalo Chicken Large,350,14,40,15
+Pizza Hut,Pan Pizza Slices Cheese Personal Pan,150,6,17,7
+Pizza Hut,Pan Pizza Slices Cheese Medium,250,10,28,11
+Pizza Hut,Pan Pizza Slices Cheese Large,360,17,37,16
+Pizza Hut,Pan Pizza Slices Chicken Bacon Parmesan Personal Pan,180,8,17,9
+Pizza Hut,Pan Pizza Slices Chicken Bacon Parmesan Medium,270,13,27,12
+Pizza Hut,Pan Pizza Slices Chicken Bacon Parmesan Large,390,20,35,18
+Pizza Hut,Pan Pizza Slices Hawaiian Chicken Personal Pan,150,5,18,8
+Pizza Hut,Pan Pizza Slices Hawaiian Chicken Medium,240,9,29,12
+Pizza Hut,Pan Pizza Slices Hawaiian Chicken Large,350,15,38,17
+Pizza Hut,Pan Pizza Slices Meat Lover’s Personal Pan,210,12,18,9
+Pizza Hut,Pan Pizza Slices Meat Lover’s Medium,320,17,28,13
+Pizza Hut,Pan Pizza Slices Meat Lover’s Large,470,27,37,19
+Pizza Hut,Pan Pizza Slices Pepperoni Personal Pan,150,7,17,6
+Pizza Hut,Pan Pizza Slices Pepperoni Medium,250,11,28,10
+Pizza Hut,Pan Pizza Slices Pepperoni Large,370,18,36,15
+Pizza Hut,Pan Pizza Slices Pepperoni Lover’s Personal Pan,180,9,17,8
+Pizza Hut,Pan Pizza Slices Pepperoni Lover’s Medium,300,15,28,13
+Pizza Hut,Pan Pizza Slices Pepperoni Lover’s Large,440,24,37,19
+Pizza Hut,Pan Pizza Slices Supreme Personal Pan,170,8,18,7
+Pizza Hut,Pan Pizza Slices Supreme Medium,270,13,29,11
+Pizza Hut,Pan Pizza Slices Supreme Large,390,20,37,16
+Pizza Hut,Pan Pizza Slices Ultimate Cheese Lover’s Personal Pan,170,8,17,8
+Pizza Hut,Pan Pizza Slices Ultimate Cheese Lover’s Medium,270,13,27,12
+Pizza Hut,Pan Pizza Slices Ultimate Cheese Lover’s Large,390,20,36,17
+Pizza Hut,Pan Pizza Slices Veggie Lover’s Personal Pan,140,5,18,6
+Pizza Hut,Pan Pizza Slices Veggie Lover’s Medium,230,9,29,9
+Pizza Hut,Pan Pizza Slices Veggie Lover’s Large,330,15,38,14
+Pizza Hut,Hand Tossed Slices Backyard BBQ Chicken Small,140,4,20,6
+Pizza Hut,Hand Tossed Slices Backyard BBQ Chicken Medium,220,7,31,10
+Pizza Hut,Hand Tossed Slices Backyard BBQ Chicken Large,300,10,40,14
+Pizza Hut,Hand Tossed Slices Beyond Meat Pepperoni Medium,200,7,26,9
+Pizza Hut,Hand Tossed Slices Beyond Meat Pepperoni Large,280,10,35,12
+Pizza Hut,Hand Tossed Slices  Buffalo Chicken Small,130,3.5,19,6
+Pizza Hut,Hand Tossed Slices  Buffalo Chicken Medium,200,5,28,9
+Pizza Hut,Hand Tossed Slices  Buffalo Chicken Large,270,8,37,13
+Pizza Hut,Hand Tossed Slices Cheese Small,130,4.5,17,6
+Pizza Hut,Hand Tossed Slices Cheese Medium,210,8,26,10
+Pizza Hut,Hand Tossed Slices Cheese Large,290,10,34,13
+Pizza Hut,Hand Tossed Slices Chicken Bacon Parmesan Small,150,6,16,7
+Pizza Hut,Hand Tossed Slices Chicken Bacon Parmesan Medium,230,9,25,11
+Pizza Hut,Hand Tossed Slices Chicken Bacon Parmesan Large,310,13,33,16
+Pizza Hut,Hand Tossed Slices Hawaiian Chicken Small,130,4,17,7
+Pizza Hut,Hand Tossed Slices Hawaiian Chicken Medium,210,6,27,10
+Pizza Hut,Hand Tossed Slices Hawaiian Chicken Large,280,9,36,15
+Pizza Hut,Hand Tossed Slices Meat Lover’s Small,180,9,17,7
+Pizza Hut,Hand Tossed Slices Meat Lover’s Medium,290,15,26,12
+Pizza Hut,Hand Tossed Slices Meat Lover’s Large,390,21,34,17
+Pizza Hut,Hand Tossed Slices Pepperoni Small,130,5,16,6
+Pizza Hut,Hand Tossed Slices Pepperoni Medium,220,9,25,9
+Pizza Hut,Hand Tossed Slices Pepperoni Large,300,13,34,13
+Pizza Hut,Hand Tossed Slices Pepperoni Lover’s Small,160,7,17,7
+Pizza Hut,Hand Tossed Slices Pepperoni Lover’s Medium,270,13,26,12
+Pizza Hut,Hand Tossed Slices Pepperoni Lover’s Large,370,18,35,17
+Pizza Hut,Hand Tossed Slices Supreme Small,150,6,17,6
+Pizza Hut,Hand Tossed Slices Supreme Medium,240,10,26,10
+Pizza Hut,Hand Tossed Slices Supreme Large,320,14,35,14
+Pizza Hut,Hand Tossed Slices Ultimate Cheese Lover’s Small,150,6,16,6
+Pizza Hut,Hand Tossed Slices Ultimate Cheese Lover’s Medium,230,10,25,11
+Pizza Hut,Hand Tossed Slices Ultimate Cheese Lover’s Large,310,13,33,15
+Pizza Hut,Hand Tossed Slices Veggie Lover’s Small,120,4,17,5
+Pizza Hut,Hand Tossed Slices Veggie Lover’s Medium,200,6,27,8
+Pizza Hut,Hand Tossed Slices Veggie Lover’s Large,260,9,36,11
