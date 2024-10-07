@@ -2,7 +2,7 @@
  * @ Parser.java
  * @ This program implements that reads and processing input commands from a user provided file
  * @ author: Destiny
- * @ date: September 25, 2024
+ * @ date: Oct 5, 2024
  */
 
 import java.io.File;
@@ -49,36 +49,35 @@ public class Parser {
             if (currentLine.equals("")) {
 
             } else if (currentLine.equals("Insert") || currentLine.equals("insert")) {
-                // if currentLine is insert add command insert and the value to insert to Array Lists
-                valueStorage = reader.nextLine().trim();
+                // if currentLine is insert add command insert and add the company and item name to Array
+                valueStorage = reader.nextLine().trim(); // trim gets rid of leading spaces
                 commandToADD = "insert";
 
                 valuesForCodes.add(valueStorage);
                 validCommands.add(commandToADD);
 
             } else if ((currentLine.equals("PrintBestOption") || currentLine.equals("printbestoption"))) {
-                // if currentLine is search add relevant commands and int
+                // if currentLine is PrintBestOption add relevant command
                 commandToADD = "pbo";
 
                 valuesForCodes.add(null);
                 validCommands.add(commandToADD);
 
             } else if (currentLine.equals("Remove") || currentLine.equals("remove")) {
-                // if currentLine is remove add relevant commands and int
+                // if currentLine is remove add relevant commands and String
                 valueStorage = reader.nextLine();
                 commandToADD = "remove";
 
                 valuesForCodes.add(valueStorage);
                 validCommands.add(commandToADD);
             } else if (currentLine.equals("rankoptions") || currentLine.equals("RankOptions")) {
-                // add print command and null value
+                // add print rank option and null value
                 commandToADD = "ro";
 
                 validCommands.add(commandToADD);
                 valuesForCodes.add(null);
             }else if (currentLine.equals("list") || currentLine.equals("List")) {
-
-                    // add print command and null value
+                    // add list command and null value
                     commandToADD = "l";
 
                     validCommands.add(commandToADD);
@@ -129,38 +128,39 @@ public class Parser {
                     }
                     // record and insert  unique values
                  if(isUniqueInsert) {
-
+                     // take full String
                      String fullID = valuesForCodes.get(i);
 
                      // Split the line by commas
                      String[] formattedID= fullID.split(",");
 
 
-                     // grab String data
+                     // Check was formatted correctly with commas
                      if (formattedID.length >= 2) {
                      String insertCompany = formattedID[0];
                      String insertItem = formattedID[1];
 
-
-
+                     // get the item
                      FastFoodNutritionInfo ffnToInsert = FastFoodNutritionInfo.getFFNFromItemAndCompany(insertItem,insertCompany);
+                        // check for case item isn't in database
                          if(ffnToInsert == null){
                              writeToFile("Insert Failed: item not in database", "./result.txt");
                      } else {
+                             // insert item and report back to user
                          tree.insert(ffnToInsert);
                          writeToFile("inserted " + ffnToInsert, "./result.txt");
                      }
                  } else{
+                         // for case where item is missing commas or company
                          writeToFile("Insert Failed: item not formatted correctly", "./result.txt");
                      }
                  }
                     break;
                 case "remove":
+                    // get the item
                     String fullID = valuesForCodes.get(i);
-
                     // Split the line by commas
                     String[] formattedID= fullID.split(",");
-
                     // grab String data
                     String insertCompany = formattedID[0].trim();
                     String insertItem = formattedID[1].trim();
@@ -168,23 +168,29 @@ public class Parser {
                     // remove and report values if possible
                     FastFoodNutritionInfo ffnToRemove = FastFoodNutritionInfo.getFFNFromItemAndCompany(insertItem, insertCompany);
                   if(ffnToRemove != null){
+                      // check if item doesn't exist in database
                       FastFoodNutritionInfo removeResult = tree.remove(ffnToRemove);
                       if(removeResult != null){
+                          // remove item report back to user
                           writeToFile("remove " + ffnToRemove, "./result.txt");
                       }
                   } else{
-                        // report failure
+                      // case if item is not in current BST
                         writeToFile("remove failed", "./result.txt");
                     }
                     break;
                 case "ro":
-                    // print
+                    // get tree size
                     int treeSize = tree.size();
+
+                    // print items ranked by calorie amount
                     tree.rankedCaloricPrint(treeSize);
+                    // check if tree is empty
                     if(treeSize == 0) {
                         writeToFile("Empty Tree, Rank Options failed", "./result.txt");
 
                     } else {
+                        // report back to user
                         writeToFile("Printed a ranking of your options", "./result.txt");
 
                     }
@@ -193,14 +199,19 @@ public class Parser {
                     // find the lowest calorie option
                     if (tree.getRoot() != null){
                         FastFoodNutritionInfo pboSearchResult = tree.getMin(tree.getRoot()).getElement();
+
+                        // report back to user
                         writeToFile("Your best option is " + pboSearchResult, "./result.txt");
                     } else{
+                        // report failure if tree empty
                         writeToFile("Empty Tree, best option search failed", "./result.txt");
                 }
                     break;
                 case "l":
-                    // print
+                    // set list boolean true
                     Proj1.setListWasCalled(true);
+
+                    // report back to user
                     writeToFile("printed Database", "./result.txt");
                     break;
 
@@ -236,6 +247,5 @@ public class Parser {
         dataTyper.write(content +"\n"); // write given string and new line
 
         dataTyper.close(); // close file to preserve data
-
     }
         }

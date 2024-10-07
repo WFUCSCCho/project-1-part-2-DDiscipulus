@@ -1,16 +1,25 @@
+/**
+ * @ FastFoodNutritionInfo.java
+ * @ This program implements the Fast Food Nutrition(FFN) class and creates FFN objects
+ *   from a data set gotten online
+ * @ author: Destiny
+ * @ date: Oct 4, 2024
+ */
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class FastFoodNutritionInfo implements Comparable <FastFoodNutritionInfo> {
-    // Date,Country/Region,Confirmed,Deaths,Recovered,Active,New cases,New deaths,New recovered,WHO Region
+    // class variables
     private String company;
     private String item;
     private Double calories;
     private Double totalFat;
     private Double carbs;
     private Double protein;
+
+    // array to store objects from data file
     static ArrayList<FastFoodNutritionInfo> allFFN = new ArrayList<FastFoodNutritionInfo>();
 
 
@@ -35,14 +44,15 @@ public class FastFoodNutritionInfo implements Comparable <FastFoodNutritionInfo>
         this.protein = protein;
     }
 
-    // String interface for COVID data
+    // String interface for FFN data
     @Override
     public String toString() {
         return "Company: " + company + ", Item: " + item + ", Total Calories: " + calories + "\n" +
-                "Macro Breakdown: " + "Fat: " + totalFat + " carbs " + carbs + " protein " + protein + "\n";
+                " \t Macro Breakdown: " + "Fat: " + totalFat + " carbs " + carbs + " protein " + protein + "\n";
     }
 
     // Comparable interface for FFN data
+        // tree will compare food by calorie amount
     @Override
     public int compareTo(FastFoodNutritionInfo other) {
         return this.calories.compareTo(other.calories);
@@ -78,8 +88,6 @@ public class FastFoodNutritionInfo implements Comparable <FastFoodNutritionInfo>
     }
 
     // Getters and Setters for Carbs
-
-
     public Double getCarbs() {
         return carbs;
     }
@@ -89,8 +97,6 @@ public class FastFoodNutritionInfo implements Comparable <FastFoodNutritionInfo>
     }
 
     // Getters and Setters for items
-
-
     public String getItem() {
         return item;
     }
@@ -110,7 +116,6 @@ public class FastFoodNutritionInfo implements Comparable <FastFoodNutritionInfo>
 
     // Method to read the data file and convert it to FastFoodNutritionInfo objects
     public static void readFastFoodData(String csvFilePath) throws IOException {
-
         Scanner scanner = new Scanner(new File(csvFilePath));
         scanner.nextLine(); // Skip top line
 
@@ -127,15 +132,15 @@ public class FastFoodNutritionInfo implements Comparable <FastFoodNutritionInfo>
 
                 String dataEntry = scanner.nextLine();
 
-                // Split the line by commas
+                // Split the strings by commas
                 String[] properData = dataEntry.split(",");
 
 
-                // grab String data
-                    company = properData[0]; // Company name
-                    item = properData[1];    // Item name
+                // convert strings to object attribute variables
+                    company = properData[0];
+                    item = properData[1];
 
-                    // Convert the Strings to Ints
+                    // Convert the Strings to Doubles
                     totalFat = Double.parseDouble(properData[3]);  //
                     calories = Double.parseDouble(properData[2]);
                     carbs = Double.parseDouble(properData[4]);
@@ -149,16 +154,17 @@ public class FastFoodNutritionInfo implements Comparable <FastFoodNutritionInfo>
             }
         }
 
+        // method prints entire database
     public static void printFFNData() {
         // Iterate through the list and print each object
         for (FastFoodNutritionInfo ffn : allFFN) {
             System.out.println(ffn.toString());
         }
     }
-    // Let's get the item
+
+    // Method use a given item and company name to ID the actual FFN of object
     public static FastFoodNutritionInfo getFFNFromItemAndCompany(String item, String company){;
         for(int i = 0; i < allFFN.size();i++){
-
             FastFoodNutritionInfo currentFFN = allFFN.get(i);
             boolean sameItem = currentFFN.item.equals(item);
             boolean sameCompany = currentFFN.company.equals(company);

@@ -2,7 +2,7 @@
  * @ BST.java
  * @ This program implements a binary search tree and an iterator class and method
  * @ author: Destiny
- * @ date: September 25, 2024
+ * @ date: Oct 4, 2024
  */
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -76,10 +76,11 @@ class BST<E extends Comparable<E>> {
         }
         return getmax(root.getRight());
     }
-    // gets the minimum element ina subtree
+    // gets the minimum element   subtree
     public Node<E> getMin(Node<E> rt) {
+        // go all the way to left and return
         if (rt.getLeft() == null) {
-            return rt; // Return the current node if there is no left child
+            return rt; //
         }
         return getMin(rt.getLeft());
     }
@@ -149,24 +150,26 @@ class BST<E extends Comparable<E>> {
         // Return the list of printed values
         return toString(listPrintedValues);
     }
-    public String rankedCaloricPrint(int treeSize) {
+    // Printer method that prints all FFN entries in order to from least to most caloric
+            // also formats them in a neat ranking for user
+    public void rankedCaloricPrint(int treeSize) {
         ArrayList<String> listPrintedValues = new ArrayList<>(); // stores printed values in order
         Iterator<E> it = iterator(); // iterator for traversal
         int tracker = 1; // tracker
 
-        //formatting
+        // formatting
         System.out.println();
         System.out.println("Here are your options from least to most caloric:");
+
         // prints values
         while (it.hasNext()) {
-
             E nodeElement = it.next();
             listPrintedValues.add(nodeElement.toString());
             System.out.print("\t" + tracker + ". " + nodeElement + "\n");
             tracker++;
         }
         // Return the list of printed values
-        return toString(listPrintedValues);
+        toString(listPrintedValues);
     }
 
     // To String method to make sure printed Array gives us formatted use info

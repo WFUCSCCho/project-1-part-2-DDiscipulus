@@ -1,24 +1,24 @@
 printed Database
 inserted Company: McDonald’s, Item: Hamburger, Total Calories: 250.0
-Macro Breakdown: Fat: 9.0 carbs 31.0 protein 12.0
+ 	 Macro Breakdown: Fat: 9.0 carbs 31.0 protein 12.0
 
 inserted Company: McDonald’s, Item: McDouble, Total Calories: 390.0
-Macro Breakdown: Fat: 19.0 carbs 33.0 protein 22.0
+ 	 Macro Breakdown: Fat: 19.0 carbs 33.0 protein 22.0
 
 inserted Company: Burger King, Item: Chicken Nuggets- 6pc, Total Calories: 260.0
-Macro Breakdown: Fat: 16.0 carbs 16.0 protein 12.0
+ 	 Macro Breakdown: Fat: 16.0 carbs 16.0 protein 12.0
 
 inserted Company: KFC, Item: KENTUCKY FRIED WINGS Honey BBQ, Total Calories: 100.0
-Macro Breakdown: Fat: 6.0 carbs 8.0 protein 5.0
+ 	 Macro Breakdown: Fat: 6.0 carbs 8.0 protein 5.0
 
 Insert Failed: item not formatted correctly
 inserted Company: Taco Bell, Item: Soft Taco – Chicken, Total Calories: 160.0
-Macro Breakdown: Fat: 5.0 carbs 16.0 protein 12.0
+ 	 Macro Breakdown: Fat: 5.0 carbs 16.0 protein 12.0
 
 remove Company: McDonald’s, Item: McDouble, Total Calories: 390.0
-Macro Breakdown: Fat: 19.0 carbs 33.0 protein 22.0
+ 	 Macro Breakdown: Fat: 19.0 carbs 33.0 protein 22.0
 
 Your best option is Company: KFC, Item: KENTUCKY FRIED WINGS Honey BBQ, Total Calories: 100.0
-Macro Breakdown: Fat: 6.0 carbs 8.0 protein 5.0
+ 	 Macro Breakdown: Fat: 6.0 carbs 8.0 protein 5.0
 
 Printed a ranking of your options
