@@ -157,14 +157,17 @@ public class FastFoodNutritionInfo implements Comparable <FastFoodNutritionInfo>
     }
     // Let's get the item
     public static FastFoodNutritionInfo getFFNFromItemAndCompany(String item, String company){
-        for (int i = 0; i < allFFN.size();i++){
-            if(allFFN.get(i).equals(item) & allFFN.get(i+1).equals(company)) {
+
+        for(int i = 0; i < allFFN.size();i++){
+            FastFoodNutritionInfo currentFFN = allFFN.get(i);
+            boolean sameItem = currentFFN.item.equals(item);
+            boolean sameCompany = currentFFN.company.equals(item);
+            if(sameItem && sameCompany) {
                 return allFFN.get(i);
                 }
             }
         return null;
         }
-
     }
 
 

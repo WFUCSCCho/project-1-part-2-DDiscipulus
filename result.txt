@@ -1,1 +1,6 @@
-printed Database
+Insert Failed: item not in database
+Insert Failed: item not in database
+Insert Failed: item not in database
+remove failed
+Empty Tree, best option search failed
+Empty Tree, Rank Options failed

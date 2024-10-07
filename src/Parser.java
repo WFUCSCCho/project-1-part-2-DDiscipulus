@@ -45,12 +45,14 @@ public class Parser {
 
             // reads next line until space of text
             currentLine = reader.next();
+            System.out.println("Got Current Line is " + currentLine);
 
             // Remove redundant spaces for each input command
             if (currentLine.equals("")) {
 
             } else if (currentLine.equals("Insert") || currentLine.equals("insert")) {
                 // if currentLine is insert add command insert and the value to insert to Array Lists
+                System.out.println("Got insert");
                 valueStorage = reader.nextLine();
                 commandToADD = "insert";
 
@@ -58,31 +60,32 @@ public class Parser {
                 validCommands.add(commandToADD);
                 commandNumber++;
 
-            } else if ((currentLine.equals("Print best option") || currentLine.equals("print best option"))) {
+            } else if ((currentLine.equals("PrintBestOption") || currentLine.equals("printbestoption"))) {
                 // if currentLine is search add relevant commands and int
                 commandToADD = "pbo";
+                System.out.println("Got pbo");
 
                 valuesForCodes.add(null);
                 validCommands.add(commandToADD);
                 commandNumber++;
             } else if (currentLine.equals("Remove") || currentLine.equals("remove")) {
                 // if currentLine is remove add relevant commands and int
+                System.out.println("Got remove");
                 valueStorage = reader.nextLine();
                 commandToADD = "remove";
 
                 valuesForCodes.add(valueStorage);
                 validCommands.add(commandToADD);
                 commandNumber++;
-            } else if (currentLine.equals("Top 5") || currentLine.equals("top 5")) {
-                // grab restaurant
-                valueStorage = reader.next();
+            } else if (currentLine.equals("rankoptions") || currentLine.equals("RankOptions")) {
+                System.out.println("Got ro");
                 // add print command and null value
-                commandToADD = "t5";
+                commandToADD = "ro";
 
                 validCommands.add(commandToADD);
-                valuesForCodes.add(valueStorage);
                 commandNumber++;
             }else if (currentLine.equals("list") || currentLine.equals("List")) {
+                System.out.println("Got list");
                     // add print command and null value
                     commandToADD = "l";
 
@@ -147,9 +150,14 @@ public class Parser {
 
 
                      FastFoodNutritionInfo ffnToInsert = FastFoodNutritionInfo.getFFNFromItemAndCompany(insertItem,insertCompany);
+                     if(ffnToInsert == null){
+                         writeToFile("Insert Failed: item not in database", "./result.txt");
 
-                     tree.insert(ffnToInsert);
-                     writeToFile("insert " + ffnToInsert, "./result.txt");
+
+                     } else {
+                         tree.insert(ffnToInsert);
+                         writeToFile("insert " + ffnToInsert, "./result.txt");
+                     }
                  }
                     break;
                 case "remove":
@@ -173,23 +181,26 @@ public class Parser {
                         writeToFile("remove failed", "./result.txt");
                     }
                     break;
-                case "Rank options":
+                case "ro":
                     // print
                     int treeSize = tree.size();
-                    writeToFile(tree.rankedCaloricPrint(treeSize), "./result.txt");
+                    if(treeSize == 0) {
+                        writeToFile("Empty Tree, Rank Options failed", "./result.txt");
+
+                    } else {
+                        writeToFile(tree.rankedCaloricPrint(treeSize), "./result.txt");
+
+                    }
                     break;
-                case "print best option":
+                case "pbo":
                     // find the lowest calorie option
-                    FastFoodNutritionInfo pboSearchResult = tree.getMin(tree.getRoot()).getElement();
-                    if(pboSearchResult != null){
+                    if (tree.getRoot() != null){
+                        FastFoodNutritionInfo pboSearchResult = tree.getMin(tree.getRoot()).getElement();
                         writeToFile("Your best option is " + pboSearchResult + "/n it has " + pboSearchResult.getCalories()
                                 + " calories", "./result.txt");
-                        break;
-
-                } else{
-                        // report failure
+                    } else{
                         writeToFile("Empty Tree, best option search failed", "./result.txt");
-                    }
+                }
                     break;
                 case "l":
                     // print

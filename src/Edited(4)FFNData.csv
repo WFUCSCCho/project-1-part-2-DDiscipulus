@@ -3,17 +3,17 @@ McDonald’s,Hamburger,250,9,31,12
 McDonald’s,Cheeseburger,300,12,33,15
 McDonald’s,Double Cheeseburger,440,23,34,25
 McDonald’s,McDouble,390,19,33,22
-McDonald’s,Quarter Pounder® with Cheese,510,26,40,29
-McDonald’s,Double Quarter Pounder® with Cheese,740,42,40,48
-McDonald’s,Big Mac®,540,29,45,25
-McDonald’s,Big N’ Tasty®,460,24,37,24
-McDonald’s,Big N’ Tasty® with Cheese,510,28,38,27
+McDonald’s,Quarter Pounder with Cheese,510,26,40,29
+McDonald’s,Double Quarter Pounder with Cheese,740,42,40,48
+McDonald’s,Big Mac,540,29,45,25
+McDonald’s,Big N’ Tasty,460,24,37,24
+McDonald’s,Big N’ Tasty with Cheese,510,28,38,27
 McDonald’s,Angus Bacon & Cheese,790,39,63,45
 McDonald’s,Angus Deluxe,750,39,61,40
 McDonald’s,Angus Mushroom & Swiss,770,40,59,44
-McDonald’s,Filet-O-Fish®,380,18,38,15
-McDonald’s,McChicken ®,360,16,40,14
-McDonald’s,McRib ®,500,26,44,22
+McDonald’s,Filet-O-Fish,380,18,38,15
+McDonald’s,McChicken ,360,16,40,14
+McDonald’s,McRib ,500,26,44,22
 McDonald’s,Premium Grilled Chicken Classic Sandwich,360,9,41,27
 McDonald’s,Premium Crispy Chicken Classic Sandwich,510,22,56,24
 McDonald’s,Premium Grilled Chicken Club Sandwich,460,17,43,35
@@ -21,12 +21,12 @@ McDonald’s,Premium Crispy Chicken Club Sandwich,620,29,57,31
 McDonald’s,Premium Grilled Chicken Ranch BLT Sandwich,380,10,41,31
 McDonald’s,Premium Crispy Chicken Ranch BLT Sandwich,540,23,56,27
 McDonald’s,Southern Style Crispy Chicken Sandwich,400,17,39,24
-McDonald’s,Ranch Snack Wrap® (Crispy),340,17,33,14
-McDonald’s,Ranch Snack Wrap® (Grilled),270,10,26,18
-McDonald’s,Honey Mustard Snack Wrap® (Crispy),330,16,34,14
-McDonald’s,Honey Mustard Snack Wrap® (Grilled),260,9,27,18
-McDonald’s,Chipotle BBQ Snack Wrap® (Crispy),330,15,35,14
-McDonald’s,Chipotle BBQ Snack Wrap® (Grilled),260,9,28,18
+McDonald’s,Ranch Snack Wrap (Crispy),340,17,33,14
+McDonald’s,Ranch Snack Wrap (Grilled),270,10,26,18
+McDonald’s,Honey Mustard Snack Wrap (Crispy),330,16,34,14
+McDonald’s,Honey Mustard Snack Wrap (Grilled),260,9,27,18
+McDonald’s,Chipotle BBQ Snack Wrap (Crispy),330,15,35,14
+McDonald’s,Chipotle BBQ Snack Wrap (Grilled),260,9,28,18
 McDonald’s,Angus Bacon & Cheese Snack Wrap,390,21,28,21
 McDonald’s,Angus Chipotle BBQ Bacon,800,39,66,45
 McDonald’s,Angus Chipotle BBQ Bacon Snack Wrap,400,22,30,21
@@ -38,15 +38,15 @@ McDonald’s,Medium French Fries,380,19,48,4
 McDonald’s,Large French Fries,500,25,63,6
 McDonald’s,Ketchup Packet,15,0,3,0
 McDonald’s,Salt Packet,0,0,0,0
-McDonald’s,Chicken McNuggets® (4 piece),190,12,12,9
-McDonald’s,Chicken McNuggets® (6 piece),280,18,18,13
-McDonald’s,Chicken McNuggets® (10 piece),470,30,30,22
+McDonald’s,Chicken McNuggets (4 piece),190,12,12,9
+McDonald’s,Chicken McNuggets (6 piece),280,18,18,13
+McDonald’s,Chicken McNuggets (10 piece),470,30,30,22
 McDonald’s,Barbeque Sauce,50,0,12,0
 McDonald’s,Honey,50,0,12,0
 McDonald’s,Hot Mustard Sauce,60,2.5,9,1
 McDonald’s,Sweet ‘N Sour Sauce,50,0,12,0
-McDonald’s,Chicken Selects® Premium Breast Strips (3 pc),400,24,23,23
-McDonald’s,Chicken Selects® Premium Breast Strips (5 pc),660,40,39,38
+McDonald’s,Chicken Selects Premium Breast Strips (3 pc),400,24,23,23
+McDonald’s,Chicken Selects Premium Breast Strips (5 pc),660,40,39,38
 McDonald’s,Spicy Buffalo Sauce,60,6,1,0
 McDonald’s,Creamy Ranch Sauce,170,18,2,0
 McDonald’s,Tangy Honey Mustard Sauce,60,2,10,0
@@ -63,14 +63,14 @@ McDonald’s,Premium Caesar Salad (without chicken),90,4,9,7
 McDonald’s,Side Salad,20,0,4,1
 McDonald’s,Butter Garlic Croutons,60,1.5,10,2
 McDonald’s,Snack Size Fruit & Walnut Salad,210,8,31,4
-McDonald’s,Newman’s Own® Creamy Southwest Dressing,100,6,11,1
-McDonald’s,Newman’s Own® Creamy Caesar Dressing,190,18,4,2
-McDonald’s,Newman’s Own® Low Fat Balsamic Vinaigrette,40,3,4,0
-McDonald’s,Newman’s Own® Low Fat Family Recipe Italian Dressing,60,2.5,8,1
-McDonald’s,Newman’s Own® Ranch Dressing,170,15,9,1
-McDonald’s,Egg McMuffin®,300,12,30,18
-McDonald’s,Sausage McMuffin®,370,22,29,14
-McDonald’s,Sausage McMuffin® with Egg,450,27,30,21
+McDonald’s,Newman’s Own Creamy Southwest Dressing,100,6,11,1
+McDonald’s,Newman’s Own Creamy Caesar Dressing,190,18,4,2
+McDonald’s,Newman’s Own Low Fat Balsamic Vinaigrette,40,3,4,0
+McDonald’s,Newman’s Own Low Fat Family Recipe Italian Dressing,60,2.5,8,1
+McDonald’s,Newman’s Own Ranch Dressing,170,15,9,1
+McDonald’s,Egg McMuffin,300,12,30,18
+McDonald’s,Sausage McMuffin,370,22,29,14
+McDonald’s,Sausage McMuffin with Egg,450,27,30,21
 McDonald’s,English Muffin,160,3,27,5
 McDonald’s,Bacon Egg & Cheese Biscuit (Regular Size Biscuit),420,23,37,15
 McDonald’s,Bacon Egg & Cheese Biscuit (Large Size Biscuit),480,27,43,15
@@ -81,15 +81,15 @@ McDonald’s,Sausage Biscuit (Large Size Biscuit),480,31,39,11
 McDonald’s,Southern Style Chicken Biscuit (Regular Size Biscuit),410,20,41,17
 McDonald’s,Southern Style Chicken Biscuit (Large Size Biscuit),470,24,46,17
 McDonald’s,Steak Egg & Cheese Bagel,660,33,56,33
-McDonald’s,Bacon Egg & Cheese McGriddles®,420,18,48,15
-McDonald’s,Sausage Egg & Cheese McGriddles®,560,32,48,20
-McDonald’s,Sausage McGriddles®,420,22,44,11
-McDonald’s,Big Breakfast® (Regular Size Biscuit),740,48,51,28
-McDonald’s,Big Breakfast® (Large Size Biscuit),800,52,56,28
+McDonald’s,Bacon Egg & Cheese McGriddles,420,18,48,15
+McDonald’s,Sausage Egg & Cheese McGriddles,560,32,48,20
+McDonald’s,Sausage McGriddles,420,22,44,11
+McDonald’s,Big Breakfast (Regular Size Biscuit),740,48,51,28
+McDonald’s,Big Breakfast (Large Size Biscuit),800,52,56,28
 McDonald’s,Big Breakfast with Hotcakes (Regular Size Biscuit),1090,56,111,36
 McDonald’s,Big Breakfast with Hotcakes (Large Size Biscuit),1150,60,116,36
 McDonald’s,Sausage Burrito,300,16,26,12
-McDonald’s,McSkillet™ Burrito with Sausage,610,36,44,27
+McDonald’s,McSkillet Burrito with Sausage,610,36,44,27
 McDonald’s,Hotcakes,350,9,60,8
 McDonald’s,Hotcakes and Sausage,520,24,61,15
 McDonald’s,Hotcake Syrup,180,0,45,0
@@ -102,25 +102,25 @@ McDonald’s,Fruit & Maple Oatmeal,290,4.5,57,5
 McDonald’s,Fruit & Maple Oatmeal without Brown Sugar,260,4.5,48,5
 McDonald’s,Hamburger Happy Meal,475,16,62,22
 McDonald’s,4 Piece Chicken McNuggets Happy Meal,395,17,41,19
-McDonald’s,6 Piece Chicken McNuggets® Happy Meal,475,22,46,24
+McDonald’s,6 Piece Chicken McNuggets Happy Meal,475,22,46,24
 McDonald’s,Fruit ‘n Yogurt Parfait (7 oz),160,2,31,4
 McDonald’s,Low Fat Caramel Dip,70,0.5,15,0
 McDonald’s,Vanilla Reduced Fat Ice Cream Cone,150,3.5,24,4
-Burger King,Whopper® Sandwich,660,40,49,28
-Burger King,Whopper® Sandwich with Cheese,740,46,50,32
-Burger King,Bacon & Cheese Whopper® Sandwich,790,51,50,35
-Burger King,Double Whopper® Sandwich,900,58,49,48
-Burger King,Double Whopper® Sandwich with Cheese,980,64,50,52
-Burger King,Triple Whopper® Sandwich,1130,75,49,67
-Burger King,Triple Whopper® Sandwich with Cheese,1220,82,50,71
-Burger King,Whopper JR.® Sandwich,310,18,27,13
+Burger King,Whopper Sandwich,660,40,49,28
+Burger King,Whopper Sandwich with Cheese,740,46,50,32
+Burger King,Bacon & Cheese Whopper Sandwich,790,51,50,35
+Burger King,Double Whopper Sandwich,900,58,49,48
+Burger King,Double Whopper Sandwich with Cheese,980,64,50,52
+Burger King,Triple Whopper Sandwich,1130,75,49,67
+Burger King,Triple Whopper Sandwich with Cheese,1220,82,50,71
+Burger King,Whopper JR. Sandwich,310,18,27,13
 Burger King,Bacon King Sandwich,1150,79,49,61
 Burger King,Cheddar Bacon King Sandwich,1190,84,50,64
 Burger King,Single Quarter Pound King Sandwich,580,29,49,32
 Burger King,Double Quarter Pound King Sandwich,900,54,50,56
 Burger King,Single Stacker King,700,42,48,35
 Burger King,Double Stacker King,1050,68,49,61
-Burger King,IMPOSSIBLE Whopper® Sandwich,630,34,58,25
+Burger King,IMPOSSIBLE Whopper Sandwich,630,34,58,25
 Burger King,Hamburger,240,10,26,13
 Burger King,Cheeseburger,280,13,27,15
 Burger King,Double Hamburger,350,18,26,21
@@ -166,36 +166,36 @@ Burger King,Chicken Nuggets- 4pc,170,11,11,8
 Burger King,Chicken Nuggets- 6pc,260,16,16,12
 Burger King,Hamburger,240,10,26,13
 Burger King,Cheeseburger,280,13,27,15
-Burger King,Mott’s® Natural Applesauce,50,0,13,0
+Burger King,Mott’s Natural Applesauce,50,0,13,0
 Burger King,Fat FREE Milk (8 fl oz),90,0,13,9
 Burger King,1% Low Fat Chocolate Milk (8 fl oz),160,2.5,26,8
-Burger King,Capri Sun® 100% Apple Juice (6 fl oz),80,0,20,0
+Burger King,Capri Sun 100% Apple Juice (6 fl oz),80,0,20,0
 Burger King,PB&J Jamwich,300,16,33,11
 Burger King,Soft Serve Cone,190,4.5,32,5
 Burger King,Dutch Apple Pie,340,14,51,3
-Burger King,HERSHEY®’S Sundae Pie,310,19,32,3
-Burger King,Pie made with TWIX®,370,20,45,4
-Burger King,OREO® Cookie Cheesecake,350,18,41,6
+Burger King,HERSHEY’S Sundae Pie,310,19,32,3
+Burger King,Pie made with TWIX,370,20,45,4
+Burger King,OREO Cookie Cheesecake,350,18,41,6
 Burger King,Soft Serve Cone,190,4.5,32,5
 Burger King,Soft Serve Cup,170,4.5,28,5
-Burger King,HERSHEY®’s Chocolate Sundae,260,5,49,5
+Burger King,HERSHEY’s Chocolate Sundae,260,5,49,5
 Burger King,Caramel Sundae,240,5,42,5
 Burger King,Chocolate Chip Cookies (each),160,8,24,2
 Burger King,CROISSAN’WICH Egg & Cheese,340,18,29,12
 Burger King,CROISSAN’WICH Sausage Egg & Cheese,500,33,30,19
 Burger King,CROISSAN’WICH Ham Egg & Cheese,370,19,30,17
 Burger King,CROISSAN’WICH Bacon Egg & Cheese,370,21,30,14
-Burger King,Fully Loaded CROISSAN’WICH®,610,40,31,28
-Burger King,Double CROISSAN’WICH® with Sausage & Bacon,580,40,31,23
-Burger King,Double CROISSAN’WICH® with Sausage,710,52,31,29
-Burger King,Double CROISSAN’WICH® with Ham & Sausage,580,38,31,27
+Burger King,Fully Loaded CROISSAN’WICH,610,40,31,28
+Burger King,Double CROISSAN’WICH with Sausage & Bacon,580,40,31,23
+Burger King,Double CROISSAN’WICH with Sausage,710,52,31,29
+Burger King,Double CROISSAN’WICH with Ham & Sausage,580,38,31,27
 Burger King,Fully Loaded Biscuit,640,45,31,28
 Burger King,Ham Egg & Cheese Biscuit,400,24,29,17
 Burger King,Bacon Egg & Cheese Biscuit,400,26,29,13
 Burger King,Sausage Biscuit,420,28,28,12
 Burger King,Breakfast Burrito Jr.,370,23,27,15
 Burger King,EGG-NORMOUS BURRITOΡ,780,42,68,32
-Burger King,BK™ Ultimate Breakfast Platter,930,44,110,24
+Burger King,BK Ultimate Breakfast Platter,930,44,110,24
 Burger King,NY Ultimate Platter (Regional menu item),900,46,95,25
 Burger King,Pancake and Sausage platter,610,31,72,12
 Burger King,Hash Browns – small,250,16,24,2
@@ -341,7 +341,7 @@ KFC,Biscuit,180,8,22,4
 KFC,Coleslaw,170,12,14,1
 KFC,Corn on the Cob,70,0.5,17,2
 KFC,Green Beans,25,0,5,1
-KFC,KFC® Cornbread Muffin,210,9,28,3
+KFC,KFC Cornbread Muffin,210,9,28,3
 KFC,Macaroni & Cheese,140,6,17,5
 KFC,Macaroni Salad,140,8,14,1
 KFC,Mashed Potatoes,110,3.5,17,2
@@ -369,17 +369,17 @@ KFC,Crispy Colonel’s Sandwich,470,24,39,24
 KFC,Crispy Colonel’s Sandwich – Buffalo,500,27,39,24
 KFC,Crispy Colonel’s Sandwich – Honey BBQ,510,25,48,24
 KFC,Crispy Colonel’s Sandwich – Nashville Hot,540,32,40,24
-KFC,Crispy Twister®,630,34,53,28
+KFC,Crispy Twister,630,34,53,28
 KFC,Honey BBQ Sandwich,350,3.5,55,24
 KFC,Spicy Chicken Sandwich,620,33,49,34
 KFC,Chicken Pot Pie,720,41,60,26
-KFC,KFC® Famous Bowl,740,35,81,26
-KFC,KFC® Famous Bowl – Snack Size,270,14,27,11
+KFC,KFC Famous Bowl,740,35,81,26
+KFC,KFC Famous Bowl – Snack Size,270,14,27,11
 KFC,Caesar Side Salad,40,2,2,3
 KFC,House Side Salad,15,0,3,1
 KFC,Heinz Buttermilk Dressing,160,17,1,0
 KFC,Hidden Valley The Original Ranch Fat Free Dressing,35,0,8,1
-KFC,KFC® Creamy Parmesan Caesar Dressing,260,26,4,2
+KFC,KFC Creamy Parmesan Caesar Dressing,260,26,4,2
 KFC,Marzetti Light Italian Dressing,15,0.5,2,0
 KFC,Parmesan Garlic Croutons,60,3,8,2
 KFC,Apple Turnover,230,10,32,2
@@ -400,28 +400,28 @@ KFC,KFC Sauce – Dipping Sauce Cup,90,8,5,0
 KFC,Lemon Juice Packet,5,0,1,0
 KFC,Ranch – Dipping Sauce Cup,130,14,2,0
 KFC,Strawberry Jam Packet,35,0,9,0
-KFC,Capri Sun® 100% Juice Fruit Punch,80,0,21,0
+KFC,Capri Sun 100% Juice Fruit Punch,80,0,21,0
 KFC,Chocolate Milk 1%,150,2.5,26,7
 KFC,Milk 1%,90,2,10,7
-KFC,Musselman’s™ Applesauce,45,0,12,0
+KFC,Musselman’s Applesauce,45,0,12,0
 KFC,Country Fried Steak without Peppered White Gravy,360,24,22,13
 KFC,Country Fried Steak with Peppered White Gravy,390,26,26,13
-KFC,KFC® Gizzards,300,16,18,20
-KFC,KFC® Livers,230,13,12,17
+KFC,KFC Gizzards,300,16,18,20
+KFC,KFC Livers,230,13,12,17
 Taco Bell,Bacon Club Chalupa,440,27,31,20
-Taco Bell,Blue Raspberry Freeze™ (16 oz),120,0,30,0
-Taco Bell,Blue Raspberry Freeze™ (20 oz),150,0,38,0
+Taco Bell,Blue Raspberry Freeze (16 oz),120,0,30,0
+Taco Bell,Blue Raspberry Freeze (20 oz),150,0,38,0
 Taco Bell,Loaded Nacho Taco,250,12,24,10
-Taco Bell,Midnight Berry Freeze™ (16 oz),140,0,35,0
-Taco Bell,Midnight Berry Freeze™ (20 oz),170,0,43,0
+Taco Bell,Midnight Berry Freeze (16 oz),140,0,35,0
+Taco Bell,Midnight Berry Freeze (20 oz),170,0,43,0
 Taco Bell,Nacho Fries,320,18,35,4
-Taco Bell,Nacho Fries BellGrande®,710,40,73,13
+Taco Bell,Nacho Fries BellGrande,710,40,73,13
 Taco Bell,Black Bean Chalupa – Online Exclusive,330,15,39,10
 Taco Bell,Black Bean Quesarito – Online Exclusive,630,29,73,19
 Taco Bell,Quesarito – Online Exclusive,650,33,67,22
-Taco Bell,Chalupa Supreme® – Beef,350,18,33,13
-Taco Bell,Chalupa Supreme® – Chicken,330,15,31,16
-Taco Bell,Chalupa Supreme® – Steak,330,16,32,15
+Taco Bell,Chalupa Supreme – Beef,350,18,33,13
+Taco Bell,Chalupa Supreme – Chicken,330,15,31,16
+Taco Bell,Chalupa Supreme – Steak,330,16,32,15
 Taco Bell,Cheesy Gordita Crunch,500,28,41,20
 Taco Bell,Crunchy Taco,170,9,13,8
 Taco Bell,Crunchy Taco Supreme,190,11,15,8
@@ -434,19 +434,19 @@ Taco Bell,Soft Taco – Beef,210,10,20,10
 Taco Bell,Soft Taco – Chicken,180,7,18,13
 Taco Bell,Bean Burrito (V),350,9,54,13
 Taco Bell,Beefy 5-Layer Burrito,490,18,63,18
-Taco Bell,Burrito Supreme® – Beef,390,14,51,16
-Taco Bell,Burrito Supreme® – Chicken,370,11,49,19
-Taco Bell,Burrito Supreme® – Steak,370,12,49,18
+Taco Bell,Burrito Supreme – Beef,390,14,51,16
+Taco Bell,Burrito Supreme – Chicken,370,11,49,19
+Taco Bell,Burrito Supreme – Steak,370,12,49,18
 Taco Bell,Chili Cheese Burrito (regional),370,17,40,16
 Taco Bell,Quesarito – Beef,650,33,67,22
 Taco Bell,Quesarito – Chicken,620,29,66,25
 Taco Bell,Quesarito – Steak,630,30,66,24
 Taco Bell,Chips and Nacho Cheese Sauce (V),220,13,24,2
 Taco Bell,Nacho Fries (V) (New),320,18,35,4
-Taco Bell,Nacho Fries BellGrande® (New),710,40,73,13
-Taco Bell,Nachos BellGrande® – Beef,740,38,82,16
-Taco Bell,Nachos BellGrande® – Chicken,720,35,81,20
-Taco Bell,Nachos BellGrande® – Steak,720,36,81,19
+Taco Bell,Nacho Fries BellGrande (New),710,40,73,13
+Taco Bell,Nachos BellGrande – Beef,740,38,82,16
+Taco Bell,Nachos BellGrande – Chicken,720,35,81,20
+Taco Bell,Nachos BellGrande – Steak,720,36,81,19
 Taco Bell,Beef Quesarito,650,33,67,22
 Taco Bell,Black Bean Quesarito (V),630,29,73,19
 Taco Bell,Quesadilla – Cheese (V),470,25,37,19
@@ -456,13 +456,13 @@ Taco Bell,Bacon Club Chalupa – Specialties,440,27,31,20
 Taco Bell,Black Bean Chalupa – Specialties,330,15,39,10
 Taco Bell,Black Bean Crunchwrap Supreme – Specialties,510,17,77,13
 Taco Bell,Black Bean Quesarito – Specialties,630,29,73,19
-Taco Bell,Chalupa Supreme® – Specialties,350,18,33,13
+Taco Bell,Chalupa Supreme – Specialties,350,18,33,13
 Taco Bell,Cheesy Gordita Crunch – Specialties,500,28,41,20
 Taco Bell,Cheesy Roll Up – Specialties,180,9,15,9
-Taco Bell,Crunchwrap Supreme® – Specialties,530,21,71,16
+Taco Bell,Crunchwrap Supreme – Specialties,530,21,71,16
 Taco Bell,Crunchy Taco – Specialties,170,9,13,8
-Taco Bell,Nacho Cheese Doritos® Locos Taco – Specialties,170,9,13,8
-Taco Bell,Nachos BellGrande® – Specialties,740,38,82,16
+Taco Bell,Nacho Cheese Doritos Locos Taco – Specialties,170,9,13,8
+Taco Bell,Nachos BellGrande – Specialties,740,38,82,16
 Taco Bell,Power Menu Bowl – Specialties,470,19,50,26
 Taco Bell,Quesadilla – Specialties,510,26,38,27
 Taco Bell,Quesarito – Specialties,650,33,67,22
@@ -471,8 +471,8 @@ Taco Bell,Soft Taco Supreme – Specialties,210,10,20,10
 Taco Bell,Veggie Power Menu Bowl – Specialties,430,17,57,12
 Taco Bell,Black Beans & Rice (V),170,3.5,31,4
 Taco Bell,Black Beans (V),50,1,8,2
-Taco Bell,Cinnabon® Delights™ (2 Pk) (V),160,9,17,2
-Taco Bell,Cinnabon® Delights™ (12 Pk – Serves 4) (V),930,53,104,9
+Taco Bell,Cinnabon Delights (2 Pk) (V),160,9,17,2
+Taco Bell,Cinnabon Delights (12 Pk – Serves 4) (V),930,53,104,9
 Taco Bell,Cinnamon Twists (V),170,6,27,1
 Taco Bell,Diablo Sauce Packet (V),0,0,0,0
 Taco Bell,Fire Sauce Packet (V),0,0,0,0
@@ -494,8 +494,8 @@ Taco Bell,Cheese Quesadilla,470,25,37,19
 Taco Bell,Cheesy Bean & Rice Burrito,420,16,56,10
 Taco Bell,Cheesy Roll Up,180,9,15,9
 Taco Bell,Chips and Nacho Cheese Sauce,220,13,24,2
-Taco Bell,Cinnabon® Delights™ (2 Pack),160,9,17,2
-Taco Bell,Cinnabon® Delights™ (12 Pack – Serves 4),930,53,104,9
+Taco Bell,Cinnabon Delights (2 Pack),160,9,17,2
+Taco Bell,Cinnabon Delights (12 Pack – Serves 4),930,53,104,9
 Taco Bell,Cinnamon Twists,170,6,27,1
 Taco Bell,Hash Brown,160,12,13,1
 Taco Bell,Power Menu Bowl – Veggie,430,17,57,12
@@ -509,8 +509,8 @@ Taco Bell,Breakfast Salsa Packet (V),0,0,1,0
 Taco Bell,Cheesy Toasted Breakfast Burrito – Bacon,350,16,36,13
 Taco Bell,Cheesy Toasted Breakfast Burrito – Fiesta Potato (V),340,14,43,10
 Taco Bell,Cheesy Toasted Breakfast Burrito – Sausage,340,17,36,11
-Taco Bell,Cinnabon® Delights™ (2 Pack) (V),160,9,17,2
-Taco Bell,Cinnabon® Delights™ (12 Pack – Serves 4) (V),930,53,104,9
+Taco Bell,Cinnabon Delights (2 Pack) (V),160,9,17,2
+Taco Bell,Cinnabon Delights (12 Pack – Serves 4) (V),930,53,104,9
 Taco Bell,Grande Toasted Breakfast Burrito – Bacon,560,30,49,24
 Taco Bell,Grande Toasted Breakfast Burrito – Sausage,560,31,49,22
 Taco Bell,Grande Toasted Breakfast Burrito – Steak,560,28,50,27
@@ -525,8 +525,8 @@ Pizza Hut,Detroit Supremo Pizza Slice,290,13,31,13
 Pizza Hut,Pan Pizza Slices Backyard BBQ Chicken Personal Pan,180,6,25,8
 Pizza Hut,Pan Pizza Slices Backyard BBQ Chicken Medium,270,10,33,11
 Pizza Hut,Pan Pizza Slices Backyard BBQ Chicken Large,380,16,43,16
-Pizza Hut,Pan Pizza Slices Beyond Meat® Pepperoni Medium,240,10,29,10
-Pizza Hut,Pan Pizza Slices Beyond Meat® Pepperoni Large,350,16,38,14
+Pizza Hut,Pan Pizza Slices Beyond Meat Pepperoni Medium,240,10,29,10
+Pizza Hut,Pan Pizza Slices Beyond Meat Pepperoni Large,350,16,38,14
 Pizza Hut,Pan Pizza Slices Buffalo Chicken Personal Pan,160,5,22,7
 Pizza Hut,Pan Pizza Slices Buffalo Chicken Medium,240,9,31,11
 Pizza Hut,Pan Pizza Slices Buffalo Chicken Large,350,14,40,15
@@ -539,29 +539,29 @@ Pizza Hut,Pan Pizza Slices Chicken Bacon Parmesan Large,390,20,35,18
 Pizza Hut,Pan Pizza Slices Hawaiian Chicken Personal Pan,150,5,18,8
 Pizza Hut,Pan Pizza Slices Hawaiian Chicken Medium,240,9,29,12
 Pizza Hut,Pan Pizza Slices Hawaiian Chicken Large,350,15,38,17
-Pizza Hut,Pan Pizza Slices Meat Lover’s® Personal Pan,210,12,18,9
-Pizza Hut,Pan Pizza Slices Meat Lover’s® Medium,320,17,28,13
-Pizza Hut,Pan Pizza Slices Meat Lover’s® Large,470,27,37,19
+Pizza Hut,Pan Pizza Slices Meat Lover’s Personal Pan,210,12,18,9
+Pizza Hut,Pan Pizza Slices Meat Lover’s Medium,320,17,28,13
+Pizza Hut,Pan Pizza Slices Meat Lover’s Large,470,27,37,19
 Pizza Hut,Pan Pizza Slices Pepperoni Personal Pan,150,7,17,6
 Pizza Hut,Pan Pizza Slices Pepperoni Medium,250,11,28,10
 Pizza Hut,Pan Pizza Slices Pepperoni Large,370,18,36,15
-Pizza Hut,Pan Pizza Slices Pepperoni Lover’s® Personal Pan,180,9,17,8
-Pizza Hut,Pan Pizza Slices Pepperoni Lover’s® Medium,300,15,28,13
-Pizza Hut,Pan Pizza Slices Pepperoni Lover’s® Large,440,24,37,19
+Pizza Hut,Pan Pizza Slices Pepperoni Lover’s Personal Pan,180,9,17,8
+Pizza Hut,Pan Pizza Slices Pepperoni Lover’s Medium,300,15,28,13
+Pizza Hut,Pan Pizza Slices Pepperoni Lover’s Large,440,24,37,19
 Pizza Hut,Pan Pizza Slices Supreme Personal Pan,170,8,18,7
 Pizza Hut,Pan Pizza Slices Supreme Medium,270,13,29,11
 Pizza Hut,Pan Pizza Slices Supreme Large,390,20,37,16
-Pizza Hut,Pan Pizza Slices Ultimate Cheese Lover’s® Personal Pan,170,8,17,8
-Pizza Hut,Pan Pizza Slices Ultimate Cheese Lover’s® Medium,270,13,27,12
-Pizza Hut,Pan Pizza Slices Ultimate Cheese Lover’s® Large,390,20,36,17
-Pizza Hut,Pan Pizza Slices Veggie Lover’s® Personal Pan,140,5,18,6
-Pizza Hut,Pan Pizza Slices Veggie Lover’s® Medium,230,9,29,9
-Pizza Hut,Pan Pizza Slices Veggie Lover’s® Large,330,15,38,14
+Pizza Hut,Pan Pizza Slices Ultimate Cheese Lover’s Personal Pan,170,8,17,8
+Pizza Hut,Pan Pizza Slices Ultimate Cheese Lover’s Medium,270,13,27,12
+Pizza Hut,Pan Pizza Slices Ultimate Cheese Lover’s Large,390,20,36,17
+Pizza Hut,Pan Pizza Slices Veggie Lover’s Personal Pan,140,5,18,6
+Pizza Hut,Pan Pizza Slices Veggie Lover’s Medium,230,9,29,9
+Pizza Hut,Pan Pizza Slices Veggie Lover’s Large,330,15,38,14
 Pizza Hut,Hand Tossed Slices Backyard BBQ Chicken Small,140,4,20,6
 Pizza Hut,Hand Tossed Slices Backyard BBQ Chicken Medium,220,7,31,10
 Pizza Hut,Hand Tossed Slices Backyard BBQ Chicken Large,300,10,40,14
-Pizza Hut,Hand Tossed Slices Beyond Meat® Pepperoni Medium,200,7,26,9
-Pizza Hut,Hand Tossed Slices Beyond Meat® Pepperoni Large,280,10,35,12
+Pizza Hut,Hand Tossed Slices Beyond Meat Pepperoni Medium,200,7,26,9
+Pizza Hut,Hand Tossed Slices Beyond Meat Pepperoni Large,280,10,35,12
 Pizza Hut,Hand Tossed Slices  Buffalo Chicken Small,130,3.5,19,6
 Pizza Hut,Hand Tossed Slices  Buffalo Chicken Medium,200,5,28,9
 Pizza Hut,Hand Tossed Slices  Buffalo Chicken Large,270,8,37,13
@@ -574,21 +574,21 @@ Pizza Hut,Hand Tossed Slices Chicken Bacon Parmesan Large,310,13,33,16
 Pizza Hut,Hand Tossed Slices Hawaiian Chicken Small,130,4,17,7
 Pizza Hut,Hand Tossed Slices Hawaiian Chicken Medium,210,6,27,10
 Pizza Hut,Hand Tossed Slices Hawaiian Chicken Large,280,9,36,15
-Pizza Hut,Hand Tossed Slices Meat Lover’s® Small,180,9,17,7
-Pizza Hut,Hand Tossed Slices Meat Lover’s® Medium,290,15,26,12
-Pizza Hut,Hand Tossed Slices Meat Lover’s® Large,390,21,34,17
+Pizza Hut,Hand Tossed Slices Meat Lover’s Small,180,9,17,7
+Pizza Hut,Hand Tossed Slices Meat Lover’s Medium,290,15,26,12
+Pizza Hut,Hand Tossed Slices Meat Lover’s Large,390,21,34,17
 Pizza Hut,Hand Tossed Slices Pepperoni Small,130,5,16,6
 Pizza Hut,Hand Tossed Slices Pepperoni Medium,220,9,25,9
 Pizza Hut,Hand Tossed Slices Pepperoni Large,300,13,34,13
-Pizza Hut,Hand Tossed Slices Pepperoni Lover’s® Small,160,7,17,7
-Pizza Hut,Hand Tossed Slices Pepperoni Lover’s® Medium,270,13,26,12
-Pizza Hut,Hand Tossed Slices Pepperoni Lover’s® Large,370,18,35,17
+Pizza Hut,Hand Tossed Slices Pepperoni Lover’s Small,160,7,17,7
+Pizza Hut,Hand Tossed Slices Pepperoni Lover’s Medium,270,13,26,12
+Pizza Hut,Hand Tossed Slices Pepperoni Lover’s Large,370,18,35,17
 Pizza Hut,Hand Tossed Slices Supreme Small,150,6,17,6
 Pizza Hut,Hand Tossed Slices Supreme Medium,240,10,26,10
 Pizza Hut,Hand Tossed Slices Supreme Large,320,14,35,14
-Pizza Hut,Hand Tossed Slices Ultimate Cheese Lover’s® Small,150,6,16,6
-Pizza Hut,Hand Tossed Slices Ultimate Cheese Lover’s® Medium,230,10,25,11
-Pizza Hut,Hand Tossed Slices Ultimate Cheese Lover’s® Large,310,13,33,15
-Pizza Hut,Hand Tossed Slices Veggie Lover’s® Small,120,4,17,5
-Pizza Hut,Hand Tossed Slices Veggie Lover’s® Medium,200,6,27,8
-Pizza Hut,Hand Tossed Slices Veggie Lover’s® Large,260,9,36,11
+Pizza Hut,Hand Tossed Slices Ultimate Cheese Lover’s Small,150,6,16,6
+Pizza Hut,Hand Tossed Slices Ultimate Cheese Lover’s Medium,230,10,25,11
+Pizza Hut,Hand Tossed Slices Ultimate Cheese Lover’s Large,310,13,33,15
+Pizza Hut,Hand Tossed Slices Veggie Lover’s Small,120,4,17,5
+Pizza Hut,Hand Tossed Slices Veggie Lover’s Medium,200,6,27,8
+Pizza Hut,Hand Tossed Slices Veggie Lover’s Large,260,9,36,11

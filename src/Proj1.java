@@ -23,8 +23,8 @@ public class Proj1 {
         System.out.println("List: list all items in database (only prints once)");
         System.out.println("Insert: provide food company & item separated by a comma");
         System.out.println("Delete: provide food company & item");
-        System.out.println("Print best option: prints lowest calorie item from tree");
-        System.out.println("Rank options): List user given items in order from least to most caloric");
+        System.out.println("PrintBestOption: prints lowest calorie item from tree");
+        System.out.println("RankOptions): List user given items in order from least to most caloric");
         Thread.sleep(4500);
 */
             if(args.length != 1){
