@@ -1,7 +1,11 @@
-
+   list
 insert McDonald’s,Hamburger
-insert McDonald’s,Big Mac®
-insert Wendy’s,Jr. Cheeseburger
-remove McDonald’s,Big Mac®
+insert McDonald’s,McDouble
+insert     Burger King,Chicken Nuggets- 6pc
+insert    KFC,KENTUCKY FRIED WINGS Honey BBQ
+insert Food that is not there
+insert     Taco Bell,Soft Taco – Chicken
+
+remove McDonald’s,McDouble
 printbestoption
 RankOptions

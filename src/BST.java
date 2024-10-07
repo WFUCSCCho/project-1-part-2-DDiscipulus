@@ -152,18 +152,18 @@ class BST<E extends Comparable<E>> {
     public String rankedCaloricPrint(int treeSize) {
         ArrayList<String> listPrintedValues = new ArrayList<>(); // stores printed values in order
         Iterator<E> it = iterator(); // iterator for traversal
-        int tracker = treeSize; // tracker
+        int tracker = 1; // tracker
 
         //formatting
         System.out.println();
-        System.out.println("Here are you options from most to least caloric");
+        System.out.println("Here are your options from least to most caloric:");
         // prints values
         while (it.hasNext()) {
 
             E nodeElement = it.next();
             listPrintedValues.add(nodeElement.toString());
-            System.out.print(tracker + ". " + nodeElement + "\n");
-            tracker--;
+            System.out.print("\t" + tracker + ". " + nodeElement + "\n");
+            tracker++;
         }
         // Return the list of printed values
         return toString(listPrintedValues);

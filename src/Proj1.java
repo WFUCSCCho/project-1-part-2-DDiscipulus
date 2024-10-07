@@ -15,18 +15,18 @@ public class Proj1 {
     public static void main(String[] args) throws IOException, InterruptedException {
         FastFoodNutritionInfo.readFastFoodData("C:\\Users\\desti\\Documents\\project-1-part-2-DDiscipulus\\src\\Edited(4)FFNData.csv");
 
-       /*
-        System.out.println("This program contains info on food from: \n \t McDonald, Burger King, Taco Bell, PizzaHut, Wendy’s, KFC \n ");
+
+        System.out.println("This program contains info on food from: \n \t McDonald's, Burger King, Taco Bell, Pizza Hut, Wendy’s, KFC \n ");
         Thread.sleep(4000);
         System.out.println("Here is a list of valid commands \n");
         Thread.sleep(2000);
         System.out.println("List: list all items in database (only prints once)");
-        System.out.println("Insert: provide food company & item separated by a comma");
-        System.out.println("Delete: provide food company & item");
+        System.out.println("Insert: provide food company & item (please separate with a comma)");
+        System.out.println("Delete: provide food company & item (see above)");
         System.out.println("PrintBestOption: prints lowest calorie item from tree");
         System.out.println("RankOptions): List user given items in order from least to most caloric");
         Thread.sleep(4500);
-*/
+
             if(args.length != 1){
                 System.err.println("Argument count is invalid: " + args.length);
                 System.exit(0);

@@ -136,8 +136,8 @@ public class FastFoodNutritionInfo implements Comparable <FastFoodNutritionInfo>
                     item = properData[1];    // Item name
 
                     // Convert the Strings to Ints
-                    totalFat = Double.parseDouble(properData[2]);  //
-                    calories = Double.parseDouble(properData[3]);
+                    totalFat = Double.parseDouble(properData[3]);  //
+                    calories = Double.parseDouble(properData[2]);
                     carbs = Double.parseDouble(properData[4]);
                     protein = Double.parseDouble(properData[5]);
 
@@ -156,12 +156,12 @@ public class FastFoodNutritionInfo implements Comparable <FastFoodNutritionInfo>
         }
     }
     // Let's get the item
-    public static FastFoodNutritionInfo getFFNFromItemAndCompany(String item, String company){
-
+    public static FastFoodNutritionInfo getFFNFromItemAndCompany(String item, String company){;
         for(int i = 0; i < allFFN.size();i++){
+
             FastFoodNutritionInfo currentFFN = allFFN.get(i);
             boolean sameItem = currentFFN.item.equals(item);
-            boolean sameCompany = currentFFN.company.equals(item);
+            boolean sameCompany = currentFFN.company.equals(company);
             if(sameItem && sameCompany) {
                 return allFFN.get(i);
                 }
